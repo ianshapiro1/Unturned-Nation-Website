@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html class="w3-bannerimage">
+<title>Unturned Nation</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top" style="opacity: 0.75;">
+  <div class="w3-bar w3-opaqueteracotta w3-card w3-left-align w3-xlarge">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-green2opq w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-hover-green2opq"><img id="homelogo" src="http://i65.tinypic.com/kbd0s0_th.png"></a>
+    <a href="#" class="w3-bar-item w3-button w3-lemonmilk w3-hide-small w3-padding-large w3-hover-green2opq w3-text-green3">Kits</a>
+    <a href="#" class="w3-bar-item w3-button w3-lemonmilk w3-hide-small w3-padding-large w3-hover-green2opq w3-text-green3">Ranks</a>
+    <a href="#" class="w3-bar-item w3-button w3-lemonmilk w3-hide-small w3-padding-large w3-hover-green2opq w3-text-green3">Upgrades</a>
+    <a href="#" class="w3-bar-item w3-button w3-lemonmilk w3-hide-small w3-padding-large w3-hover-green2opq w3-text-green3">Contact Us</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-greybackground" id="header"style="padding:390px 15px">
+  <div class="bg-header">
+    <h1 id="titletext" class="w3-doctorglitch">unturned nation</h1>
+  </div>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-32 w3-container w3-green2opq">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1 id="serverintro"class="w3-text-green1 w3-xxxlarge">Our Servers</h1>
+      <h5 class="w3-padding-16 w3-text-green1 w3-xlarge w3-liberation">Unturnednation.net hosts PVP Unturned servers with RocketMod plugins, hand-made kits, and user commands.</h5>
+
+      <p class="w3-text-green1 w3-xlarge w3-liberation">Features:</p>
+      <p class="w3-text-green1 w3-xlarge w3-liberation">• Custom Kits</p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="w3-padding-64 w3-text-red"></i>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-opaqueteracotta w3-padding-64 w3-container"id="SecondBlock">
+  <div class="w3-content">
+    <div class="w3-twothird w3-text-green2">
+      <h1 class="w3-lemonmilk">Rules and Terms of Service</h1>
+      <h5 class="w3-padding-32 w3-text-green2 w3-liberation">Players that join our servers will be held responsible for all actions that occur on their account whether or not the Rules and Terms of Service are read or understood.</h5>
+
+      <p class="w3-text-green2 w3-liberation">--  We believe in freedom of speech, so our servers allow for all languages and vocabulary. The only exceptions to this rule are threats, doxing, defamation (libel & slander), or any other communicative event that could be pursued in a court of law. Not abiding by this rule will result in a permanent ban, without a warning, across all servers.</p>
+      <p class="w3-text-green2 w3-liberation">--  Advertisements without owner permission and spam are not allowed on any server and will result in an immediate kick, without a warning. Second offenses will be permanently banned, without a warning.</p>
+      <p class="w3-text-green2 w3-liberation">--  Hacking, third party programs, or game modification of any kind is not tolerated and will result in a permanent ban, without a warning. Glitches, however, are permissible.</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-greybackground">
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
