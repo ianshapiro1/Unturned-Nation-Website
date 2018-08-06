@@ -236,7 +236,12 @@ li:before {
 }
 
 .leftalign{text-align:left;}
-
+@media only screen and (max-width: 1600px) {
+  #titletext {font-size:80pt;}
+  #header {padding:200px 15px}
+  .w3-xxxlarge {
+    font-size: 38px!important;
+}
 @media only screen and (max-width: 1024px) {
   #titletext {font-size:55pt;}
   .w3-xlarge {font-size:18px!important; line-height:24px;}
