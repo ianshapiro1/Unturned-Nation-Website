@@ -8,8 +8,8 @@
   src: url(LiberationSans-Bold.ttf);
 }
 @font-face {
-  font-family: capsmall;
-  src: url(Capsmall.ttf);
+  font-family: nosafetyzone;
+  src: url(nosafetyzone.ttf);
 }
 /* W3.CSS 4.10 February 2018 by Jan Egil and Borge Refsnes */
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
@@ -59,11 +59,7 @@ img{vertical-align:middle}a{color:inherit}
 .w3-main,#main{transition:margin-left .4s}
 .w3-lemonmilk{font-family: lemon}
 .w3-liberation{font-family: liberation}
-.w3-timeburner{font-family: timeburnernormal}
-.w3-codepredators{font-family: codepredators}
-.w3-forcedsquare{font-family: forcedsquare}
-.w3-doctorglitch{font-family: doctorglitch}
-.w3-capsmall{font-family: capsmall}
+.w3-nosafetyzone{font-family: nosafetyzone}
 .w3-bar{width:100%;overflow:hidden}.w3-center .w3-bar{display:inline-block;width:auto}
 .w3-bar .w3-bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0; color:#B0C458;}
 .w3-bar .w3-dropdown-hover,.w3-bar .w3-dropdown-click{position:static;float:left}
@@ -148,6 +144,7 @@ img{vertical-align:middle}a{color:inherit}
 .w3-green1,.w3-hover-green1:hover{color:#fff!important;background-color:#1F2410!important}
 .w3-green2opq,.w3-hover-green2opq:hover{color:#1F2410!important; opacity: .80; background-color:#8E9E47!important}
 .w3-green3opq,.w3-hover-green3opq:hover{color:#98A851!important; opacity: .80; background-color:#98A851!important}
+.w3-green4opq,.w3-hover-green4opq:hover{color:#575C1E!important; opacity: .80; background-color:#575C1E!important}
 .w3-hover-navbar:hover{color:#B0C458!important; opacity: .80; background-color:tranparent!important}
 .w3-green3,.w3-hover-green3:hover{color:#B0C458!important; background-color:#B0C458!important}
 .w3-green4,.w3-hover-green4:hover{color:#1F2410!important;  opacity: .90; background-color:#758045!important}
@@ -163,7 +160,6 @@ img{vertical-align:middle}a{color:inherit}
 
 .w3-text-green,.w3-hover-text-green:hover{color:#4CAF50!important}
 .w3-text-black,.w3-hover-text-black:hover{color:#586273!important}
-.text-slategray{color: #3D4654}
 .w3-text-poopgreen,.w3-hover-text-poopgreen:hover{color:#223017!important}
 .w3-text-green1,.w3-hover-text-green1:hover{color:#1F2410!important}
 .w3-text-green2,.w3-hover-text-green2:hover{color:#8E9E47!important}
@@ -171,22 +167,23 @@ img{vertical-align:middle}a{color:inherit}
 .w3-text-green4,.w3-hover-text-green4:hover{color:#575C1E!important}
 .w3-text-brown,.w3-hover-text-brown:hover{color:#221416!important}
 .w3-text-light-green,.w3-hover-text-light-green:hover{color:#8bc34a!important}
-.w3-opaqueteracotta {background: #221416; opacity: .90}
 .linkhovercolor:hover {color: #4A2127}
+
+/* New not fucked up colors */
+.w3-opaqueteracotta {background: #221416; opacity: .90}
+
 
 .bg-header {
   margin: 0 auto;
   text-align: center;
-  color: #495C6E;
   width: 100%;
-	margin-top: -260px;
+
 }
 #titletext {
     font-size: 80pt;
     color: #586273;
-    /* margin-top: -230px; */
-    text-shadow: 4px 4px #16181C;
-		opacity: 1;
+		-webkit-text-stroke-width: .00001em;
+    -webkit-text-stroke-color: #111111;
 }
 .underline {text-decoration:underline;}
 .washingtonborder {
@@ -212,10 +209,10 @@ img{vertical-align:middle}a{color:inherit}
   font-family: lemon;
 }
 
-#header {padding:320px 15px;}
+#header {padding:240px 15px;}
 .responsive {
     width: 100%;
-    max-width: 500px;
+    max-width: 800px;
     height: auto;
 }
 .pad20 {padding:30px}
@@ -244,7 +241,7 @@ li:before {
   #titletext {font-size:55pt;}
   .w3-xlarge {font-size:18px!important; line-height:24px;}
   .w3-padding-large {padding:18px 24px!important;}
-  #header {padding:340px 15px}
+  #header {padding:200px 15px}
   .w3-xxxlarge {
     font-size: 38px!important;
 }
@@ -256,7 +253,7 @@ li:before {
   .w3-twothird, .w3-third {width:100%; float:none;}
   .w3-xlarge {font-size:18px!important; line-height:24px;}
   .w3-padding-large {padding:18px 24px!important;}
-  #header {padding: 340px 0px 0px 0px;}
+  #header {padding: 140px 0px 0px 0px;}
   .w3-xxxlarge, .w3-xxlarge {
     font-size: 20px!important;}
     .w3-button:hover {background-color:transparent;}
