@@ -172,6 +172,7 @@ img{vertical-align:middle}a{color:inherit}
 .w3-text-brown,.w3-hover-text-brown:hover{color:#221416!important}
 .w3-text-light-green,.w3-hover-text-light-green:hover{color:#8bc34a!important}
 .linkhovercolor:hover {color: #4A2127}
+.text-dark-gray{color: #33343B!important}
 
 /* New not fucked up colors */
 .w3-opaqueteracotta {background: #221416; opacity: .90}
@@ -210,7 +211,7 @@ img{vertical-align:middle}a{color:inherit}
 #header {padding:240px 15px;}
 .responsive {
     width: 100%;
-    max-width: 800px;
+    max-width: 1000px;
     height: auto;
 }
 .pad20 {padding:30px}
