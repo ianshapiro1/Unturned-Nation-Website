@@ -242,6 +242,9 @@ li:before {
   .w3-xxxlarge {
     font-size: 38px!important;
 }
+.w3-large {
+	font-size: 12px!important;
+}
 @media only screen and (max-width: 1024px) {
   #titletext {font-size:55pt;}
   .w3-xlarge {font-size:18px!important;}
