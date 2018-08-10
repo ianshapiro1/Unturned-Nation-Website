@@ -128,6 +128,7 @@ img{vertical-align:middle}a{color:inherit}
 .w3-padding-large{padding:13px 24px!important}
 .w3-padding-16{padding-top:16px!important;padding-bottom:16px!important}
 .w3-padding-24{padding-top:24px!important;padding-bottom:24px!important}
+.w3-padding-hamburger {padding: 0px!important; width: 60px!important; height: 60px!important}
 /* .w3-padding-32{padding-top:32px!important;padding-bottom:32px!important} */
 .w3-padding-48{padding-top:48px!important;padding-bottom:48px!important}
 .w3-padding-64{padding-top:64px!important;padding-bottom:64px!important}
@@ -159,7 +160,7 @@ img{vertical-align:middle}a{color:inherit}
 .w3-text-green3,.w3-hover-text-green3:hover{color:#98A851!important}
 .w3-text-green4,.w3-hover-text-green4:hover{color:#575C1E!important}
 .w3-text-brown,.w3-hover-text-brown:hover{color:#221416!important}
-.w3-green4opq,.w3-hover-green4opq:hover{color:#575C1E!important; opacity: .80; background-color:#575C1E!important}
+.w3-green4opq,.w3-hover-green4opq:hover{color:#575C1E!important; opacity: .90; background-color:#575C1E!important}
 .linkhovercolor:hover {color: #4A2127}
 .text-dark-gray{color: #33343B!important}
 
@@ -176,6 +177,7 @@ img{vertical-align:middle}a{color:inherit}
   margin: 0 auto;
   text-align: center;
   width: 100%;
+	padding: 35px;
 
 }
 .underline {text-decoration:underline;}
@@ -205,7 +207,7 @@ img{vertical-align:middle}a{color:inherit}
   font-family: lemon;
 }
 
-#header {padding:240px 15px;}
+#header {padding:100px 15px;}
 .responsive {
     width: 100%;
     max-width: 1000px;
@@ -251,10 +253,19 @@ li:before {
   .w3-xlarge {font-size:18px!important;}
   .w3-padding-large {padding:18px 24px!important;}
   #header {padding:200px 15px}
+	#rarelogo {width: 160px ;height: 300px}
+	#epiclogo {width: 160px ;height: 300px}
+	#legendarylogo {width: 160px ;height: 300px}
+	#mythicallogo {width: 160px ;height: 300px}
   .w3-xxxlarge {
     font-size: 38px!important;
 }
-
+.w3-xxlarge {
+	font-size: 18px!important;
+}
+.w3-large {
+	font-size: 8.4px!important;
+}
 }
 
 @media only screen and (max-width: 768px) {
@@ -268,5 +279,11 @@ li:before {
     .w3-button:hover {background-color:transparent;}
     .w3-large {
     font-size: 16px!important;}
+		.w3-xxlarge {
+			font-size: 18px!important;
+		}
+		.w3-large {
+			font-size: 9px!important;
+		}
 
 }
