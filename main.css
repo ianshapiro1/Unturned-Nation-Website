@@ -235,10 +235,10 @@ li:before {
 @media only screen and (max-width: 1600px) {
   #titletext {font-size:80pt;}
   #header {padding:200px 15px}
-	#rarelogo {width: 230px ;height: 400px}
-	#epiclogo {width: 230px ;height: 400px}
-	#legendarylogo {width: 230px ;height: 400px}
-	#mythicallogo {width: 230px ;height: 400px}
+	#rarelogo {width: 230px ;height: 420px}
+	#epiclogo {width: 230px ;height: 420px}
+	#legendarylogo {width: 230px ;height: 420px}
+	#mythicallogo {width: 230px ;height: 420px}
   .w3-xxxlarge {
     font-size: 38px!important;
 }
