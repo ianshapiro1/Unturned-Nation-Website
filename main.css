@@ -149,7 +149,6 @@ img{vertical-align:middle}a{color:inherit}
 .w3-light-grey,.w3-hover-light-grey:hover,.w3-light-gray,.w3-hover-light-gray:hover{color:#000!important;background-color:#566573!important}
 .w3-dark-grey,.w3-hover-dark-grey:hover,.w3-dark-gray,.w3-hover-dark-gray:hover{color:#fff!important;background-color:#616161!important}
 .badges {opacity: 1!important; padding: 20px;}
-.badges:hover {background-color: #000000;}
 
 
 
@@ -236,6 +235,10 @@ li:before {
 @media only screen and (max-width: 1600px) {
   #titletext {font-size:80pt;}
   #header {padding:200px 15px}
+	#rarelogo {width: 230px ;height: 380px}
+	#epiclogo {width: 230px ;height: 380px}
+	#legendarylogo {width: 230px ;height: 380px}
+	#mythicallogo {width: 230px ;height: 380px}
   .w3-xxxlarge {
     font-size: 38px!important;
 }
