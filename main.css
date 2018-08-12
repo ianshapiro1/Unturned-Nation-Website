@@ -234,6 +234,12 @@ li:before {
 }
 
 
+.kitsimages {
+	padding-right: 63px;
+	padding-left: 63px;
+	padding-bottom: 100px;
+}
+
 .leftalign{text-align:left;}
 @media only screen and (max-width: 1600px) {
   #titletext {font-size:80pt;}
