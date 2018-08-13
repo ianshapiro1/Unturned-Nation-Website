@@ -171,6 +171,32 @@ img{vertical-align:middle}a{color:inherit}
 .w3-liberation{font-family: liberation}
 .w3-nosafetyzone{font-family: nosafetyzone}
 
+.dropdown {
+	position: relative;
+  display: inline-block;
+}
+
+.dropdowncontent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown:hover .dropdowncontent {
+    display: block;
+}
+
+input, select {
+	font-family: lemonmilk;
+	background-color: #575C1E;
+	color: #ffffff;
+	padding: 10px 15px;
+  border: none;
+  border-radius: 2px;
+}
 
 
 .bg-header {

@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="main.css">
 <link rel="stylesheet" href="imagehover.css">
+<script type="text/javascript" src="main.js"></script>
 
 <body>
 
@@ -114,11 +115,33 @@
       </div>
     </figcaption>
   </figure>
-  <h1 class="w3-lemonmilk w3-text-white w3-large">*global cooldown: 1 hour<br>
+  <h1 class="w3-lemonmilk w3-text-white w3-large">
+    *global cooldown: 1 hour <br>
       **global cooldown: 2 hours
   </h1>
-  <img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/buy-logo-large.png" alt="Buy now with PayPal" style="padding: 30px;"/>
+  <h1 class="w3-lemonmilk w3-text-white w3-large" style="margin-top: 50px;">Choose a rank and enter your Steam 64 id </h1>
+  <div class="dropdown" style="margin-bottom: 30px;">
+    <span class="w3-lemonmilk w3-text-white w3-large">(Hover over me for instructions):</span>
+    <div class="dropdowncontent">
+      <img src="https://image.ibb.co/jN89t9/steam64id.png"/>
+    </div>
+  </div>
+
+  <form action="unturnednation.js">
+    <input required type="text" id="partNumber" pattern="[0-9]{17}"/>
+    <select required>
+      <option value="blank">Select a Rank</option>
+      <option value="rare">Rare</option>
+      <option value="epic">Epic</option>
+      <option value="legendary">Legendary</option>
+      <option value="mythical">Mythical</option>
+    </select>
+    <input style="display: none" type="submit" value="submit"/>
+    <input type="reset"/>
+  </form>
+  <a href="#submit" ><img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/buy-logo-large.png" alt="Buy now with PayPal" style="padding: 30px;"/></a>
 </div>
+
 
 
 <!-- Footer -->
