@@ -149,20 +149,24 @@ img{vertical-align:middle}a{color:inherit}
 .w3-greybackground,.w3-hover-greybackground:hover,.w3-graybackground,.w3-hover-graybackground:hover{color:#000!important; background-color:#060708!important}
 .w3-light-grey,.w3-hover-light-grey:hover,.w3-light-gray,.w3-hover-light-gray:hover{color:#000!important;background-color:#566573!important}
 .w3-dark-grey,.w3-hover-dark-grey:hover,.w3-dark-gray,.w3-hover-dark-gray:hover{color:#fff!important;background-color:#616161!important}
-.badges {opacity: 1!important; padding: 20px;}
+.badges {opacity: 0.8!important; padding: 20px;}
 
 
 
 /* New colors */
-.w3-opaqueteracotta {background: #221416; opacity: .90}
+.w3-opaqueteracotta {background: #221416; opacity: .85}
 .w3-text-black,.w3-hover-text-black:hover{color:#586273!important}
 .w3-text-white,.w3-hover-text-white:hover{color:#ffffff!important}
-.w3-text-green3,.w3-hover-text-green3:hover{color:#98A851!important}
-.w3-text-green4,.w3-hover-text-green4:hover{color:#575C1E!important}
-.w3-text-brown,.w3-hover-text-brown:hover{color:#221416!important}
-.w3-green4opq,.w3-hover-green4opq:hover{color:#575C1E!important; opacity: .90; background-color:#575C1E!important}
+.w3-text-green3,.w3-hover-text-green3:hover{color:#737a28!important}
+.w3-text-green4,.w3-hover-text-green4:hover{color:#575C1E; opacity: 1.0!important}
+.w3-text-brown,.w3-hover-text-brown:hover{color:#221416; opacity: 1.0!important}
+.w3-green4opq,.w3-hover-green4opq:hover{opacity: .85; background-color:#575C1E}
 .linkhovercolor:hover {color: #4A2127}
 .text-dark-gray{color: #33343B!important}
+.bronze{color: #CD7F32}
+.silver{color: #C0C0C0!important}
+.gold{color: #CFB53B!important}
+.platinum{color: #E5E4E2!important}
 
 
 /*Fonts*/
@@ -196,6 +200,11 @@ input, select {
 	padding: 10px 15px;
   border: none;
   border-radius: 2px;
+}
+
+.trianglebronze {
+	background-color: #CD7F32
+	color: #CD7F32
 }
 
 
@@ -244,9 +253,9 @@ input, select {
 ul {
     margin: 0;
     padding: 0 2.5em ;
-    list-style: none;
+    list-style: square;
 }
-li:before {
+/* li:before {
     content: "";
     border-color: transparent #111;
     border-style: solid;
@@ -257,10 +266,12 @@ li:before {
     left: -1em;
     top: 0.9em;
     position: relative;
-}
+} */
+
+
 
 .dropbtn {
-    background-color: #3498DB;
+    background-color: #000000;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -270,7 +281,7 @@ li:before {
 
 /* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus {
-    background-color: #2980B9;
+    background-color: #000000; opacity: 0.0;
 }
 
 /* The container <div> - needed to position the dropdown content */
