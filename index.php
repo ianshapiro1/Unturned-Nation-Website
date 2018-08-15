@@ -7,7 +7,9 @@
 <link rel="stylesheet" href="imagehover.css">
 
 <body>
+<?php
 
+ ?>
 <!-- Navbar -->
 <div class="w3-top" style="opacity: 0.95;">
   <div class="w3-bar w3-opaqueteracotta w3-card w3-left-align w3-xlarge">
