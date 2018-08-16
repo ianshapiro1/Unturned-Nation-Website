@@ -26,7 +26,37 @@
     <a href="contact.html" class="w3-bar-item w3-button w3-padding-large">Contact Us</a>
   </div>
 </div>
-
+<script>
+function CustomAlert(){
+    this.render = function(dialog, headtext){
+        var winW = window.innerWidth;
+        var winH = window.innerHeight;
+        var dialogoverlay = document.getElementById('dialogoverlay');
+        var dialogbox = document.getElementById('dialogbox');
+        dialogoverlay.style.display = "block";
+        dialogoverlay.style.height = winH+"px";
+        dialogbox.style.left = (winW/2) - (550 * .5)+"px";
+        dialogbox.style.top = "100px";
+        dialogbox.style.display = "block";
+        document.getElementById('dialogboxhead').innerHTML = headtext;
+        document.getElementById('dialogboxbody').innerHTML = dialog;
+        document.getElementById('dialogboxfoot').innerHTML = '<button onclick="Alert.ok()">OK</button>';
+    }
+	this.ok = function(){
+		document.getElementById('dialogbox').style.display = "none";
+		document.getElementById('dialogoverlay').style.display = "none";
+	}
+}
+var Alert = new CustomAlert();
+</script>
+<div id="dialogoverlay"></div>
+<div id="dialogbox">
+  <div>
+    <div id="dialogboxhead"></div>
+    <div id="dialogboxbody"></div>
+    <div id="dialogboxfoot"></div>
+  </div>
+</div>
 <div class="w3-container">
   <div class="w3-lemonmilk w3-center w3-text-white" style="padding: 100px; padding-left: 0px; padding-right: 0px;">
     <h1 class="underline w3-text-green3">Kits</h1>
@@ -44,6 +74,7 @@
             <p class="w3-small">A weapon and supplies kit with necessary items for survival, including a maplestrike, ammo, food, medical, gas, and a blow torch.</p>
             <p class="w3-tiny ">*May be spawned once every half hour.*</p>
           </div>
+          <button onclick="Alert.render('fuck it', 'this is it nigger')">View Details</button>
         </figcaption>
       </figure>
     </div>
