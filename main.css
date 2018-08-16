@@ -184,12 +184,15 @@ img{vertical-align:middle}a{color:inherit}
 #dialogbox{
 	display: none;
 	position: fixed;
+	overflow: auto;
+	margin: auto;
 	background: #33343B;
 	right: 40%;
 	left: 40%;
 	top: 300px;
 	border-radius:7px;
 	width: auto;
+	max-height: 400px;
 	z-index: 10;
 }
 .buttonkit{
@@ -393,7 +396,7 @@ ul {
 }
 
 @media only screen and (max-width: 768px) {
-	#dialogbox {right: 10%; left: 10%; top: 50px;}
+	#dialogbox {right: 10%; left: 10%; top: 100px;}
   #titletext {font-size:35pt;}
   .w3-twothird, .w3-third {width:100%; float:none;}
   .w3-xlarge {font-size:18px!important;}
