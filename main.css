@@ -174,26 +174,40 @@ img{vertical-align:middle}a{color:inherit}
 
 #dialogoverlay{
 	display: none;
-	opacity: .8;
+	opacity: .42;
 	position: fixed;
 	top: 0px;
 	left: 0px;
-	background: #FFF;
+	background: #575C1E;
 	width: 100%;
 	z-index: 10;
 }
 #dialogbox{
 	display: none;
 	position: fixed;
-	background: #000;
+	background: #33343B;
 	border-radius:7px;
-	width:550px;
+	width: 300px;
 	z-index: 10;
 }
-#dialogbox > div{ background:#FFF; margin:8px; }
-#dialogbox > div > #dialogboxhead{ background: #666; font-size:19px; padding:10px; color:#CCC; }
-#dialogbox > div > #dialogboxbody{ background:#333; padding:20px; color:#FFF; }
-#dialogbox > div > #dialogboxfoot{ background: #666; padding:10px; text-align:right; }
+.buttonkit{
+	float: bottommiddle;
+	color: #000000;
+	background-color: #737a28;
+	border-radius: 7px;
+	border-color: #000000;
+}
+.buttonkit:hover{
+	float: bottommiddle;
+	color: #000000;
+	background-color: #575b1e;
+	border-radius: 7px;
+	border-color: #000000;
+}
+#dialogbox > div{ background:#606060; margin:7px; }
+#dialogbox > div > #dialogboxhead{ background: #FF9D0F; font-size:19px; padding:10px; color:#4e505b; text-align:center; }
+#dialogbox > div > #dialogboxbody{ background:#4e505b; padding:20px; color:#FF9D0F; }
+#dialogbox > div > #dialogboxfoot{ background: #FF9D0F; padding:10px; text-align: right;}
 
 /*Fonts*/
 
