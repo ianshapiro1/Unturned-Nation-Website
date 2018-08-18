@@ -173,7 +173,7 @@ img{vertical-align:middle}a{color:inherit}
 
 #dialogoverlay{
 	display: none;
-	opacity: .42;
+	opacity: 0.27;
 	position: fixed;
 	top: 0px;
 	background: #FF9D0F;
@@ -210,9 +210,9 @@ img{vertical-align:middle}a{color:inherit}
 #dialogbox > div > #dialogboxfoot{ background: #FF9D0F; padding:10px; text-align: right;}
 
 #dialogboxbody::-webkit-scrollbar { width: 12px; }
-#dialogboxbody::-webkit-scrollbar-track { -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); -webkit-border-radius: 10px; border-radius: 10px; }
-#dialogboxbody::-webkit-scrollbar-thumb { -webkit-border-radius: 10px; border-radius: 10px; background: rgba(255,0,0,0.8); -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); }
-#dialogboxbody::-webkit-scrollbar-thumb:window-inactive { background: rgba(255,0,0,0.4); }
+#dialogboxbody::-webkit-scrollbar-track { -webkit-box-shadow: inset 0 0 6px #FF9D0F; -webkit-border-radius: 10px; border-radius: 10px; }
+#dialogboxbody::-webkit-scrollbar-thumb { -webkit-border-radius: 10px; border-radius: 10px; background: #FF9D0F; -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); }
+#dialogboxbody::-webkit-scrollbar-thumb:window-inactive { background: #FF9D0F; }
 /*Fonts*/
 
 .w3-lemonmilk{font-family: lemon}
