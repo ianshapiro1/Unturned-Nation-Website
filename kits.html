@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="main.css">
 <link rel="stylesheet" href="imagehover.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.css">
+<script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.js"></script>
 <body>
 
 <!-- Navbar -->
@@ -49,14 +51,18 @@ function CustomAlert(){
 }
 var Alert = new CustomAlert();
 </script>
+
+
 <div id="dialogoverlay"></div>
 <div id="dialogbox">
-  <div>
+  <div data-simplebar data-simplebar-auto-hide="false">
     <div id="dialogboxhead"></div>
-    <div class="overflowscroll" id="dialogboxbody"></div>
+    <div id="dialogboxbody"></div>
     <div id="dialogboxfoot"></div>
   </div>
 </div>
+
+
 <div class="w3-container">
   <div class="w3-lemonmilk w3-center w3-text-white" style="padding: 100px; padding-left: 0px; padding-right: 0px;">
     <h1 class="underline w3-text-green3">Kits</h1>
