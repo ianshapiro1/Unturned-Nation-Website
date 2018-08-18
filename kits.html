@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="main.css">
 <link rel="stylesheet" href="imagehover.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.css">
+<script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.js"></script>
 <body>
 
 <!-- Navbar -->
@@ -26,6 +28,8 @@
     <a href="contact.html" class="w3-bar-item w3-button w3-padding-large">Contact Us</a>
   </div>
 </div>
+
+
 <script>
 function CustomAlert(){
     this.render = function(dialog, headtext){
@@ -69,12 +73,13 @@ var Alert = new CustomAlert();
       <figure class="imghvr-fade w3-lemonmilk">
         <img class="kitsimages" src="http://i68.tinypic.com/6ixs06.png">
         <figcaption style="background-color: #737a28">
-          <div class="w3-xlarge" style="color: #000000;">
-            <h1 class="underline w3-xlarge" style="color: #000000">Essentials</h1>
-            <p class="w3-small">A weapon and supplies kit with necessary items for survival, including a maplestrike, ammo, food, medical, gas, and a blow torch.</p>
-            <p class="w3-tiny ">*May be spawned once every half hour.*</p>
-          </div>
-          <button class="buttonkit" onclick="Alert.render('<ul><li>Maplestrike</li><li>Military Mag x2</li><li>Military Crate x2</li><li>Gas Can</li><li>Blow Torch</li><li>MRE x2</li><li>Water x2</li><li>Dressing x5</li></ul>', 'Essentials Kit')">View Details</button>
+          <button class="buttonkit" onclick="Alert.render('<ul><li>Maplestrike</li><li>Military Mag x2</li><li>Military Crate x2</li><li>Gas Can</li><li>Blow Torch</li><li>MRE x2</li><li>Water x2</li><li>Dressing x5</li></ul>', 'Essentials Kit')">
+            <div class="w3-xlarge" style="color: #000000;">
+              <h1 class="underline w3-xlarge" style="color: #000000">Essentials</h1>
+              <p class="w3-small">A weapon and supplies kit with necessary items for survival, including a maplestrike, ammo, food, medical, gas, and a blow torch.</p>
+              <p class="w3-tiny ">*May be spawned once every half hour.*</p>
+            </div>
+          </button>
         </figcaption>
       </figure>
     </div>

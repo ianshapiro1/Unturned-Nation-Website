@@ -175,25 +175,6 @@ img{vertical-align:middle}a{color:inherit}
 	max-height: 250px;
 }
 
-#dialogboxbody::-webkit-scrollbar-track
-{
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	border-radius: 10px;
-	background-color: #F5F5F5;
-}
-
-#dialogboxbody::-webkit-scrollbar
-{
-	width: 12px;
-	background-color: #F5F5F5;
-}
-
-#dialogboxbody::-webkit-scrollbar-thumb
-{
-	border-radius: 10px;
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: #555;
-}
 #dialogoverlay{
 	display: none;
 	opacity: .42;
@@ -217,14 +198,9 @@ img{vertical-align:middle}a{color:inherit}
 	z-index: 10;
 }
 .buttonkit{
-	float: bottommiddle;
-	color: #000000;
-	background-color: #737a28;
-	border-radius: 7px;
-	border-color: #000000;
-}
-.buttonkit:hover{
-	float: bottommiddle;
+	width: 275px;
+	height: 275px;
+	container: fill;
 	color: #000000;
 	background-color: #575b1e;
 	border-radius: 7px;

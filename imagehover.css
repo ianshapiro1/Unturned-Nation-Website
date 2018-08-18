@@ -33,7 +33,7 @@
 
 [class^='imghvr-'] figcaption, [class*=' imghvr-'] figcaption {
     background-color: #135796;
-    padding: 30px;
+    padding: 0px;
     position: absolute;
     top: 0;
     bottom: 0;
