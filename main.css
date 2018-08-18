@@ -150,6 +150,7 @@ img{vertical-align:middle}a{color:inherit}
 .w3-light-grey,.w3-hover-light-grey:hover,.w3-light-gray,.w3-hover-light-gray:hover{color:#000!important;background-color:#566573!important}
 .w3-dark-grey,.w3-hover-dark-grey:hover,.w3-dark-gray,.w3-hover-dark-gray:hover{color:#fff!important;background-color:#616161!important}
 .badges {opacity: 0.8!important; padding: 20px;}
+.floattop {float: topmiddle}
 
 
 
@@ -170,10 +171,7 @@ img{vertical-align:middle}a{color:inherit}
 
 
 
-.overflowscroll {
-	overflow-y: scroll;
-	max-height: 250px;
-}
+
 
 #dialogoverlay{
 	display: none;
@@ -187,6 +185,7 @@ img{vertical-align:middle}a{color:inherit}
 #dialogbox{
 	display: none;
 	position: fixed;
+	overflow: auto;
 	margin: auto;
 	background: #33343B;
 	right: 40%;
@@ -198,14 +197,15 @@ img{vertical-align:middle}a{color:inherit}
 	z-index: 10;
 }
 .buttonkit{
-	width: 275px;
-	height: 275px;
-	container: fill;
 	color: #000000;
-	background-color: #575b1e;
+	background-color: #4e505b;
+	border-width: 7px;
 	border-radius: 7px;
-	border-color: #000000;
+	border-color: #FF9D0F;
+	height: 275px;
+	width: 275px;
 }
+
 #dialogbox > div{ background:#606060; margin:7px; }
 #dialogbox > div > #dialogboxhead{ background: #FF9D0F; font-size:19px; padding:10px; color:#4e505b; text-align:center; }
 #dialogbox > div > #dialogboxbody{ background:#4e505b; padding:20px; color:#FF9D0F; }

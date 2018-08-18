@@ -5,8 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="main.css">
 <link rel="stylesheet" href="imagehover.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.css">
-<script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.js"></script>
 <body>
 
 <!-- Navbar -->
@@ -28,8 +26,6 @@
     <a href="contact.html" class="w3-bar-item w3-button w3-padding-large">Contact Us</a>
   </div>
 </div>
-
-
 <script>
 function CustomAlert(){
     this.render = function(dialog, headtext){
@@ -44,7 +40,7 @@ function CustomAlert(){
         dialogbox.style.fontFamily = "lemon";
         document.getElementById('dialogboxhead').innerHTML = headtext;
         document.getElementById('dialogboxbody').innerHTML = dialog;
-        document.getElementById('dialogboxfoot').innerHTML = '<button onclick="Alert.ok()">OK</button>';
+        document.getElementById('dialogboxfoot').innerHTML = '<button onclick="Alert.ok()">Close</button>';
     }
 	this.ok = function(){
 		document.getElementById('dialogbox').style.display = "none";
@@ -74,10 +70,10 @@ var Alert = new CustomAlert();
         <img class="kitsimages" src="http://i68.tinypic.com/6ixs06.png">
         <figcaption style="background-color: #737a28">
           <button class="buttonkit" onclick="Alert.render('<ul><li>Maplestrike</li><li>Military Mag x2</li><li>Military Crate x2</li><li>Gas Can</li><li>Blow Torch</li><li>MRE x2</li><li>Water x2</li><li>Dressing x5</li></ul>', 'Essentials Kit')">
-            <div class="w3-xlarge" style="color: #000000;">
-              <h1 class="underline w3-xlarge" style="color: #000000">Essentials</h1>
-              <p class="w3-small">A weapon and supplies kit with necessary items for survival, including a maplestrike, ammo, food, medical, gas, and a blow torch.</p>
-              <p class="w3-tiny ">*May be spawned once every half hour.*</p>
+            <div class="w3-xlarge" style="color: #FF9D0F;">
+              <h1 class="underline w3-xlarge" style="color: #FF9D0F">Essentials</h1>
+              <p class="w3-medium">A weapon and supplies kit with necessary items for survival, including a maplestrike, ammo, food, medical, gas, and a blow torch.</p>
+              <p class="w3-tiny">*Click for Details*</p>
             </div>
           </button>
         </figcaption>
@@ -87,12 +83,13 @@ var Alert = new CustomAlert();
       <figure class="imghvr-fade w3-lemonmilk">
         <img class="kitsimages" src="http://i64.tinypic.com/swqpma.png">
         <figcaption style="background-color: #737a28">
-          <div class="w3-xlarge" style="color: #000000;">
-            <h1 class="underline w3-xlarge" style="color: #000000">Meals</h1>
-            <p class="w3-small">A supply kit that contains MREs, coconut water, and energy bars.</p>
-            <p class="w3-tiny">*May be spawned once every half hour.*</p>
-          </div>
-          <button class="buttonkit" onclick="Alert.render('<ul><li>MRE x10</li><li>Coconut Water x5</li><li>Energy Bar x5</li></ul>', 'Meals Kit')">View Details</button>
+          <button class="buttonkit" onclick="Alert.render('<ul><li>MRE x10</li><li>Coconut Water x5</li><li>Energy Bar x5</li></ul>', 'Meals Kit')">
+            <div class="w3-xlarge" style="color: #FF9D0F;">
+              <h1 class="underline w3-xlarge" style="color: #FF9D0F">Meals</h1>
+              <p class="w3-medium">A supply kit that contains MREs, coconut water, and energy bars.</p>
+              <p class="w3-tiny">*Click for Details*</p>
+            </div>
+          </button>
         </figcaption>
       </figure>
     </div>
@@ -100,12 +97,13 @@ var Alert = new CustomAlert();
       <figure class="imghvr-fade w3-lemonmilk">
         <img class="kitsimages" src="http://i67.tinypic.com/710107.png">
         <figcaption style="background-color: #737a28">
-          <div class="w3-xlarge" style="color: #000000;">
-            <h1 class="underline w3-xlarge" style="color: #000000">First Aid</h1>
-            <p class="w3-small">A supply kit that contains medkits, bloodbags, vaccines, antibiotics, dressings, and splints.</p>
-            <p class="w3-tiny">*May be spawned once every half hour.*</p>
-          </div>
-          <button class="buttonkit" onclick="Alert.render('<ul><li>Medkit x3</li><li>Bloodbag x2</li><li>Vaccine x3</li><li>Antibiotics x4</li><li>Dressing x5</li><li>Splint x2</li></ul>', 'First Aid Kit')">View Details</button>
+          <button class="buttonkit" onclick="Alert.render('<ul><li>Medkit x3</li><li>Bloodbag x2</li><li>Vaccine x3</li><li>Antibiotics x4</li><li>Dressing x5</li><li>Splint x2</li></ul>', 'First Aid Kit')">
+            <div class="w3-xlarge" style="color: #FF9D0F;">
+              <h1 class="underline w3-xlarge" style="color: #FF9D0F">First Aid</h1>
+              <p class="w3-medium">A supply kit that contains medkits, bloodbags, vaccines, antibiotics, dressings, and splints.</p>
+              <p class="w3-tiny">*Click for Details*</p>
+            </div>
+          </button>
         </figcaption>
       </figure>
     </div>
@@ -113,12 +111,13 @@ var Alert = new CustomAlert();
       <figure class="imghvr-fade w3-lemonmilk">
         <img class="kitsimages" src="http://i68.tinypic.com/2hp7ypw.jpg">
         <figcaption style="background-color: #737a28">
-          <div class="w3-xlarge" style="color: #000000;">
-            <h1 class="underline w3-xlarge" style="color: #000000">Shelter</h1>
-            <p class="w3-small">A builder kit comprised of all metal housing, including bulletproof glass, doors, fences, and a claim flag.</p>
-            <p class="w3-tiny">*May be spawned once every half hour.*</p>
-          </div>
-          <button class="buttonkit" onclick="Alert.render('<ul><li>Construction Helmet</li><li>Construction Top</li><li>Cargo Pants</li><li>Alicepack</li><li>Metal Pillar x8</li><li>Metal Floor x3</li><li>Metal Roof x3</li>Metal Wall x4<li>Metal Window x2</li><li>Bulletproof Glass x2</li><li>Metal Doorway x2</li><li>Metal Door x2</li><li>Metal Hole</li><li>Metal Hatch</li><li>Metal Ladder</li><li>Metal Garage</li><li>Metal Gate</li><li>Locker x2</li><li>Claim Flag</li><li>Barbed Wire Fence x5</li></ul>', 'Shelter Kit')">View Details</button>
+          <button class="buttonkit" onclick="Alert.render('<ul><li>Construction Helmet</li><li>Construction Top</li><li>Cargo Pants</li><li>Alicepack</li><li>Metal Pillar x8</li><li>Metal Floor x3</li><li>Metal Roof x3</li>Metal Wall x4<li>Metal Window x2</li><li>Bulletproof Glass x2</li><li>Metal Doorway x2</li><li>Metal Door x2</li><li>Metal Hole</li><li>Metal Hatch</li><li>Metal Ladder</li><li>Metal Garage</li><li>Metal Gate</li><li>Locker x2</li><li>Claim Flag</li><li>Barbed Wire Fence x5</li></ul>', 'Shelter Kit')">
+            <div class="w3-xlarge" style="color: #FF9D0F;">
+              <h1 class="underline w3-xlarge" style="color: #FF9D0F">Shelter</h1>
+              <p class="w3-medium">A builder kit comprised of all metal housing, including bulletproof glass, doors, fences, and a claim flag.</p>
+              <p class="w3-tiny">*Click for Details*</p>
+            </div>
+          </button>
         </figcaption>
       </figure>
     </div>
@@ -126,12 +125,13 @@ var Alert = new CustomAlert();
       <figure class="imghvr-fade w3-lemonmilk">
         <img class="kitsimages" src="http://i66.tinypic.com/28jzkmb.png">
         <figcaption style="background-color: #737a28">
-          <div class="w3-xlarge" style="color: #000000;">
-            <h1 class="underline w3-xlarge" style="color: #000000">Storage</h1>
-            <p class="w3-small">A supply kit that contains 10 lockers.</p>
-            <p class="w3-tiny">*May be spawned once every half hour.*</p>
-          </div>
-          <button class="buttonkit" onclick="Alert.render('<ul><li>Locker x10</li></ul>', 'Storage Kit')">View Details</button>
+          <button class="buttonkit" onclick="Alert.render('<ul><li>Locker x10</li></ul>', 'Storage Kit')">
+            <div class="w3-xlarge" style="color: #FF9D0F;">
+              <h1 class="underline w3-xlarge" style="color: #FF9D0F">Storage</h1>
+              <p class="w3-medium">A supply kit that contains 10 lockers.</p>
+              <p class="w3-tiny">*Click for Details*</p>
+            </div>
+          </button>
         </figcaption>
       </figure>
     </div>
@@ -139,12 +139,13 @@ var Alert = new CustomAlert();
       <figure class="imghvr-fade w3-lemonmilk">
         <img class="kitsimages" src="http://i63.tinypic.com/2ccxamr.png">
         <figcaption style="background-color: #737a28">
-          <div class="w3-xlarge" style="color: #000000;">
-            <h1 class="underline w3-xlarge" style="color: #000000">Water Supply</h1>
-            <p class="w3-small">A supply kit that contains rain barrels, a water tank, and a canteen.</p>
-            <p class="w3-tiny">*May be spawned once every half hour.*</p>
-          </div>
-          <button class="buttonkit" onclick="Alert.render('<ul><li>Rain Barrel x5</li><li>Water Tank</li><li>Canteen</li></ul>', 'Water Supply Kit')">View Details</button>
+          <button class="buttonkit" onclick="Alert.render('<ul><li>Rain Barrel x5</li><li>Water Tank</li><li>Canteen</li></ul>', 'Water Supply Kit')">
+            <div class="w3-xlarge" style="color: #FF9D0F;">
+              <h1 class="underline w3-xlarge" style="color: #FF9D0F">Water Supply</h1>
+              <p class="w3-medium">A supply kit that contains rain barrels, a water tank, and a canteen.</p>
+              <p class="w3-tiny">*Click for Details*</p>
+            </div>
+          </button>
         </figcaption>
       </figure>
     </div>
@@ -152,12 +153,13 @@ var Alert = new CustomAlert();
       <figure class="imghvr-fade w3-lemonmilk">
         <img class="kitsimages" src="http://i68.tinypic.com/143drnr.png">
         <figcaption style="background-color: #737a28">
-          <div class="w3-xlarge" style="color: #000000;">
-            <h1 class="underline w3-xlarge" style="color: #000000">Energy Supply</h1>
-            <p class="w3-small">A supply kit that contains an industrial generator, an industrial gas can, and oil derricks.</p>
-            <p class="w3-tiny">*May be spawned once every half hour.*</p>
-          </div>
-          <button class="buttonkit" onclick="Alert.render('<ul><li>Generator x2</li><li>Industrial Gas Can</li><li>Pump Jack x2</li><li>Fuel Tank</li></ul>', 'Energy Supply')">View Details</button>
+          <button class="buttonkit" onclick="Alert.render('<ul><li>Generator x2</li><li>Industrial Gas Can</li><li>Pump Jack x2</li><li>Fuel Tank</li></ul>', 'Energy Supply')">
+            <div class="w3-xlarge" style="color: #FF9D0F;">
+              <h1 class="underline w3-xlarge" style="color: #FF9D0F">Energy Supply</h1>
+              <p class="w3-medium">A supply kit that contains an industrial generator, an industrial gas can, and oil derricks.</p>
+              <p class="w3-tiny">*Click for Details*</p>
+            </div>
+          </button>
         </figcaption>
       </figure>
     </div>
@@ -165,12 +167,13 @@ var Alert = new CustomAlert();
       <figure class="imghvr-fade w3-lemonmilk">
         <img class="kitsimages" src="http://i66.tinypic.com/2ijtcnb.png">
         <figcaption style="background-color: #737a28">
-          <div class="w3-xlarge" style="color: #000000;">
-            <h1 class="underline w3-xlarge" style="color: #000000">Defense</h1>
-            <p class="w3-small">A weapons kit that equips you with a snayperskya, a kryzkarek, and ammo.</p>
-            <p class="w3-tiny">*May be spawned once every half hour.*</p>
-          </div>
-          <button class="buttonkit" onclick="Alert.render('<ul><li>Snayperskya</li><li>Snayperskya Mag x3</li><li>8x Scope</li><li>Ranger Suppresor</li><li>Kryzkarek</li><li>Kryzkarek Mag</li><li>Low Caliber Ranger Ammunition x2</li><li>Headlamp</li><li>Binoculars</li></ul>', 'Defense Kit')">View Details</button>
+          <button class="buttonkit" onclick="Alert.render('<ul><li>Snayperskya</li><li>Snayperskya Mag x3</li><li>8x Scope</li><li>Ranger Suppresor</li><li>Kryzkarek</li><li>Kryzkarek Mag</li><li>Low Caliber Ranger Ammunition x2</li><li>Headlamp</li><li>Binoculars</li></ul>', 'Defense Kit')">
+            <div class="w3-xlarge" style="color: #FF9D0F;">
+              <h1 class="underline w3-xlarge" style="color: #FF9D0F">Defense</h1>
+              <p class="w3-medium">A weapons kit that equips you with a snayperskya, a kryzkarek, and ammo.</p>
+              <p class="w3-tiny">*Click for Details*</p>
+            </div>
+          </button>
         </figcaption>
       </figure>
     </div>
@@ -178,12 +181,13 @@ var Alert = new CustomAlert();
       <figure class="imghvr-fade w3-lemonmilk">
         <img class="kitsimages" src="http://i63.tinypic.com/2rd9m6g.png">
         <figcaption style="background-color: #737a28">
-          <div class="w3-xlarge" style="color: #000000;">
-            <h1 class="underline w3-xlarge" style="color: #000000">Offense</h1>
-            <p class="w3-small">A weapons kit that equips you with a bulldog, a calling card, and ammo.</p>
-            <p class="w3-tiny">*May be spawned once every half hour.*</p>
-          </div>
-          <button class="buttonkit" onclick="Alert.render('<ul><li>Bulldog</li><li>Bulldog Mag x3</li><li>Calling Card</li><li>Calling Card Mag</li><li>Halo Sight</li><li>Barrel</li><li>Low Caliber Ranger Ammunition x2</li><li>Butterfly Knife</li><li>Headlamp</li></ul>', 'Offense Kit')">View Details</button>
+          <button class="buttonkit" onclick="Alert.render('<ul><li>Bulldog</li><li>Bulldog Mag x3</li><li>Calling Card</li><li>Calling Card Mag</li><li>Halo Sight</li><li>Barrel</li><li>Low Caliber Ranger Ammunition x2</li><li>Butterfly Knife</li><li>Headlamp</li></ul>', 'Offense Kit')">
+            <div class="w3-xlarge" style="color: #FF9D0F;">
+              <h1 class="underline w3-xlarge" style="color: #FF9D0F">Offense</h1>
+              <p class="medium">A weapons kit that equips you with a bulldog, a calling card, and ammo.</p>
+              <p class="w3-tiny">*Click for Details*</p>
+            </div>
+          </button>
         </figcaption>
       </figure>
     </div>
@@ -191,12 +195,13 @@ var Alert = new CustomAlert();
       <figure class="imghvr-fade w3-lemonmilk">
         <img class="kitsimages" src="http://i67.tinypic.com/5x6ija.png">
         <figcaption style="background-color: #737a28">
-          <div class="w3-xlarge" style="color: #000000;">
-            <h1 class="underline w3-xlarge" style="color: #000000">Attachments</h1>
-            <p class="w3-small">A tactical kit that includes 15 attachments.</p>
-            <p class="w3-tiny">*May be spawned once every half hour.*</p>
-          </div>
-          <button class="buttonkit" onclick="Alert.render('<ul><li>Red Dot Sight</li><li>Halo Sight</li><li>Tactical Light</li><li>Red Cross Scope</li><li>16x Scope</li><li>Vertical Grip x2</li><li>Horizontal Grip</li><li>Bipod</li><li>Military Barrel</li><li>Ranger Barrel</li><li>Military Suppressor</li><li>Ranger Suppressor</li><li>Adaptive Chambering</li><li>Military Muzzle</li></ul>', 'Attachments Kit')">View Details</button>
+          <button class="buttonkit" onclick="Alert.render('<ul><li>Red Dot Sight</li><li>Halo Sight</li><li>Tactical Light</li><li>Red Cross Scope</li><li>16x Scope</li><li>Vertical Grip x2</li><li>Horizontal Grip</li><li>Bipod</li><li>Military Barrel</li><li>Ranger Barrel</li><li>Military Suppressor</li><li>Ranger Suppressor</li><li>Adaptive Chambering</li><li>Military Muzzle</li></ul>', 'Attachments Kit')">
+            <div class="w3-xlarge" style="color: #FF9D0F;">
+              <h1 class="underline w3-xlarge" style="color: #FF9D0F">Attachments</h1>
+              <p class="w3-medium">A tactical kit that includes 15 attachments.</p>
+              <p class="w3-tiny">*Click for Details*</p>
+            </div>
+          </button>
         </figcaption>
       </figure>
     </div>
@@ -204,12 +209,13 @@ var Alert = new CustomAlert();
       <figure class="imghvr-fade w3-lemonmilk">
         <img class="kitsimages" src="http://i65.tinypic.com/bjdhdf.png">
         <figcaption style="background-color: #737a28">
-          <div class="w3-xlarge" style="color: #000000;">
-            <h1 class="underline w3-xlarge" style="color: #000000">Repair</h1>
-            <p class="w3-small">A supply kit that contains metal, cloth, and a blow torch for quick repairs.</p>
-            <p class="w3-tiny">*May be spawned once every half hour.*</p>
-          </div>
-          <button class="buttonkit" onclick="Alert.render('fuck it', 'Repair Kit')">View Details</button>
+          <button class="buttonkit" onclick="Alert.render('fuck it', 'Repair Kit')">
+            <div class="w3-xlarge" style="color: #FF9D0F;">
+              <h1 class="underline w3-xlarge" style="color: #FF9D0F">Repair</h1>
+              <p class="w3-medium">A supply kit that contains metal, cloth, and a blow torch for quick repairs.</p>
+              <p class="w3-tiny">*Click for Details*</p>
+            </div>
+          </button>
         </figcaption>
       </figure>
     </div>
@@ -217,12 +223,13 @@ var Alert = new CustomAlert();
       <figure class="imghvr-fade w3-lemonmilk">
         <img class="kitsimages" src="http://i67.tinypic.com/o93887.png">
         <figcaption style="background-color: #737a28">
-          <div class="w3-xlarge" style="color: #000000;">
-            <h1 class="underline w3-xlarge" style="color: #000000">Fences</h1>
-            <p class="w3-small">A tactical kit that includes barbed wire fences and barbed wire.</p>
-            <p class="w3-tiny">*May be spawned once every half hour.*</p>
-          </div>
-          <button class="buttonkit" onclick="Alert.render('fuck it', 'Fences Kit')">View Details</button>
+          <button class="buttonkit" onclick="Alert.render('fuck it', 'Fences Kit')">
+            <div class="w3-xlarge" style="color: #FF9D0F;">
+              <h1 class="underline w3-xlarge" style="color: #FF9D0F">Fences</h1>
+              <p class="w3-medium">A tactical kit that includes barbed wire fences and barbed wire.</p>
+              <p class="w3-tiny">*Click for Details*</p>
+            </div>
+          </button>
         </figcaption>
       </figure>
     </div>
@@ -230,12 +237,13 @@ var Alert = new CustomAlert();
       <figure class="imghvr-fade w3-lemonmilk">
         <img class="kitsimages" src="http://i67.tinypic.com/24mdp1t.png">
         <figcaption style="background-color: #737a28">
-          <div class="w3-xlarge" style="color: #000000;">
-            <h1 class="underline w3-xlarge" style="color: #000000">Picnic</h1>
-            <p class="w3-small">A supply kit that contains plenty of food to share.</p>
-            <p class="w3-tiny">*May be spawned once every half hour.*</p>
-          </div>
-          <button class="buttonkit" onclick="Alert.render('fuck it', 'Picnic Kit')">View Details</button>
+          <button class="buttonkit" onclick="Alert.render('fuck it', 'Picnic Kit')">
+            <div class="w3-xlarge" style="color: #FF9D0F;">
+              <h1 class="underline w3-xlarge" style="color: #FF9D0F">Picnic</h1>
+              <p class="w3-medium">A supply kit that contains plenty of food to share.</p>
+              <p class="w3-tiny">*Click for Details*</p>
+            </div>
+          </button>
         </figcaption>
       </figure>
     </div>
@@ -243,12 +251,13 @@ var Alert = new CustomAlert();
       <figure class="imghvr-fade w3-lemonmilk">
         <img class="kitsimages" src="http://i67.tinypic.com/2irx9py.png">
         <figcaption style="background-color: #737a28">
-          <div class="w3-xlarge" style="color: #000000;">
-            <h1 class="underline w3-xlarge" style="color: #000000">Paintball</h1>
-            <p class="w3-small">A very colorful kit.</p>
-            <p class="w3-tiny">*May taste the rainbow once every half hour.*</p>
-          </div>
-          <button class="buttonkit" onclick="Alert.render('fuck it', 'Paintball Kit')">View Details</button>
+          <button class="buttonkit" onclick="Alert.render('fuck it', 'Paintball Kit')">
+            <div class="w3-xlarge" style="color: #FF9D0F;">
+              <h1 class="underline w3-xlarge" style="color: #FF9D0F">Paintball</h1>
+              <p class="w3-medium">A very colorful kit.</p>
+              <p class="w3-tiny">*Click for Details*</p>
+            </div>
+          </button>
         </figcaption>
       </figure>
     </div>
@@ -256,12 +265,13 @@ var Alert = new CustomAlert();
       <figure class="imghvr-fade w3-lemonmilk">
         <img class="kitsimages" src="http://i68.tinypic.com/95pi0z.png">
         <figcaption style="background-color: #737a28">
-          <div class="w3-xlarge" style="color: #000000;">
-            <h1 class="underline w3-xlarge" style="color: #000000">Horde</h1>
-            <p class="w3-small">A tactical kit that includes a horde beacon, ammo, and medical supplies.</p>
-            <p class="w3-tiny">*May be spawned once every half hour.*</p>
-          </div>
-          <button class="buttonkit" onclick="Alert.render('fuck it', 'Horde Kit')">View Details</button>
+          <button class="buttonkit" onclick="Alert.render('fuck it', 'Horde Kit')">
+            <div class="w3-xlarge" style="color: #FF9D0F;">
+              <h1 class="underline w3-xlarge" style="color: #FF9D0F">Horde</h1>
+              <p class="w3-medium">A tactical kit that includes a horde beacon, ammo, and medical supplies.</p>
+              <p class="w3-tiny">*Click for Details*</p>
+            </div>
+          </button>
         </figcaption>
       </figure>
     </div>
@@ -271,12 +281,13 @@ var Alert = new CustomAlert();
         <figure class="imghvr-fade w3-lemonmilk">
           <img class="kitsimages" src="http://i68.tinypic.com/2cqcgia.png">
           <figcaption style="background-color: #737a28">
-            <div class="w3-xlarge" style="color: #000000;">
-              <h1 class="underline w3-xlarge" style="color: #000000">Forest Military</h1>
-              <p class="w3-small">A weapons kit that equips you with forest military gear, a swissgewehr, a desert falcon, and ammo.</p>
-              <p class="w3-tiny">*May be spawned once every one hour.*</p>
-            </div>
-            <button class="buttonkit" onclick="Alert.render('fuck it', 'Forest Military Kit')">View Details</button>
+            <button class="buttonkit" onclick="Alert.render('fuck it', 'Forest Military Kit')">
+              <div class="w3-xlarge" style="color: #FF9D0F;">
+                <h1 class="underline w3-xlarge" style="color: #FF9D0F">Forest Military</h1>
+                <p class="w3-medium">A weapons kit that equips you with forest military gear, a swissgewehr, a desert falcon, and ammo.</p>
+                <p class="w3-tiny">*Click for Details*</p>
+              </div>
+            </button>
           </figcaption>
         </figure>
       </div>
@@ -284,12 +295,13 @@ var Alert = new CustomAlert();
         <figure class="imghvr-fade w3-lemonmilk">
           <img class="kitsimages" src="http://i65.tinypic.com/28kj48k.png">
           <figcaption style="background-color: #737a28">
-            <div class="w3-xlarge" style="color: #000000;">
-              <h1 class="underline w3-xlarge" style="color: #000000">Russian Military</h1>
-              <p class="w3-small">A weapons kit that equips you with russian military gear, a nykorev, a teklowvka, and ammo.</p>
-              <p class="w3-tiny">*May be spawned once every one hour.*</p>
-            </div>
-            <button class="buttonkit" onclick="Alert.render('fuck it', 'Russian Military Kit')">View Details</button>
+            <button class="buttonkit" onclick="Alert.render('fuck it', 'Russian Military Kit')">
+              <div class="w3-xlarge" style="color: #FF9D0F;">
+                <h1 class="underline w3-xlarge" style="color: #FF9D0F">Russian Military</h1>
+                <p class="w3-medium">A weapons kit that equips you with russian military gear, a nykorev, a teklowvka, and ammo.</p>
+                <p class="w3-tiny">*Click for Details*</p>
+              </div>
+            </button>
           </figcaption>
         </figure>
       </div>
@@ -297,12 +309,13 @@ var Alert = new CustomAlert();
         <figure class="imghvr-fade w3-lemonmilk">
           <img class="kitsimages" src="http://i68.tinypic.com/289zjm1.png">
           <figcaption style="background-color: #737a28">
-            <div class="w3-xlarge" style="color: #000000;">
-              <h1 class="underline w3-xlarge" style="color: #000000">Desert Military</h1>
-              <p class="w3-small">A weapons kit that equips you with desert military gear, a fusilaut, a backlash, and ammo.</p>
-              <p class="w3-tiny">*May be spawned once every one hour.*</p>
-            </div>
-            <button class="buttonkit" onclick="Alert.render('fuck it', 'Desert Military Kit')">View Details</button>
+            <button class="buttonkit" onclick="Alert.render('fuck it', 'Desert Military Kit')">
+              <div class="w3-xlarge" style="color: #FF9D0F;">
+                <h1 class="underline w3-xlarge" style="color: #FF9D0F">Desert Military</h1>
+                <p class="w3-medium">A weapons kit that equips you with desert military gear, a fusilaut, a backlash, and ammo.</p>
+                <p class="w3-tiny">*Click for Details*</p>
+              </div>
+            </button>
           </figcaption>
         </figure>
       </div>
@@ -310,12 +323,13 @@ var Alert = new CustomAlert();
         <figure class="imghvr-fade w3-lemonmilk">
           <img class="kitsimages" src="http://i65.tinypic.com/202mg6.png">
           <figcaption style="background-color: #737a28">
-            <div class="w3-xlarge" style="color: #000000;">
-              <h1 class="underline w3-xlarge" style="color: #000000">German Camo</h1>
-              <p class="w3-small">A weapons kit that equips you with peaks ghillie, an ehko, a maschingehewr, and ammo.</p>
-              <p class="w3-tiny">*May be spawned once every one hour.*</p>
-            </div>
-            <button class="buttonkit" onclick="Alert.render('fuck it', 'German Camo Kit')">View Details</button>
+            <button class="buttonkit" onclick="Alert.render('fuck it', 'German Camo Kit')">
+              <div class="w3-xlarge" style="color: #FF9D0F;">
+                <h1 class="underline w3-xlarge" style="color: #FF9D0F">German Camo</h1>
+                <p class="w3-medium">A weapons kit that equips you with peaks ghillie, an ehko, a maschingehewr, and ammo.</p>
+                <p class="w3-tiny">*Click for Details*</p>
+              </div>
+            </button>
           </figcaption>
         </figure>
       </div>
@@ -323,12 +337,13 @@ var Alert = new CustomAlert();
         <figure class="imghvr-fade w3-lemonmilk">
           <img class="kitsimages" src="http://i67.tinypic.com/11w50yp.png">
           <figcaption style="background-color: #737a28">
-            <div class="w3-xlarge" style="color: #000000;">
-              <h1 class="underline w3-xlarge" style="color: #000000">Russian Camo</h1>
-              <p class="w3-small">A weapons kit that equips you with russian ghillie, a matamorez, a yuri, and ammo.</p>
-              <p class="w3-tiny">*May be spawned once every one hour.*</p>
-            </div>
-            <button class="buttonkit" onclick="Alert.render('fuck it', 'Russian Camo Kit')">View Details</button>
+            <button class="buttonkit" onclick="Alert.render('fuck it', 'Russian Camo Kit')">
+              <div class="w3-xlarge" style="color: #FF9D0F;">
+                <h1 class="underline w3-xlarge" style="color: #FF9D0F">Russian Camo</h1>
+                <p class="w3-medium">A weapons kit that equips you with russian ghillie, a matamorez, a yuri, and ammo.</p>
+                <p class="w3-tiny">*Click for Details*</p>
+              </div>
+            </button>
           </figcaption>
         </figure>
       </div>
@@ -336,12 +351,13 @@ var Alert = new CustomAlert();
         <figure class="imghvr-fade w3-lemonmilk">
           <img class="kitsimages" src="http://i63.tinypic.com/f0bwxi.png">
           <figcaption style="background-color: #737a28">
-            <div class="w3-xlarge" style="color: #000000;">
-              <h1 class="underline w3-xlarge" style="color: #000000">Scuba</h1>
-              <p class="w3-small">A tactical kit that includes diving gear, a scalar, an oxygenator, and ammo.</p>
-              <p class="w3-tiny">*May be spawned once every one hour.*</p>
-            </div>
-            <button class="buttonkit" onclick="Alert.render('fuck it', 'Scuba Kit')">View Details</button>
+            <button class="buttonkit" onclick="Alert.render('fuck it', 'Scuba Kit')">
+              <div class="w3-xlarge" style="color: #FF9D0F;">
+                <h1 class="underline w3-xlarge" style="color: #FF9D0F">Scuba</h1>
+                <p class="w3-medium">A tactical kit that includes diving gear, a scalar, an oxygenator, and ammo.</p>
+                <p class="w3-tiny">*Click for Details*</p>
+              </div>
+            </button>
           </figcaption>
         </figure>
       </div>
@@ -349,12 +365,13 @@ var Alert = new CustomAlert();
         <figure class="imghvr-fade w3-lemonmilk">
           <img class="kitsimages" src="http://i63.tinypic.com/2lu9bev.png">
           <figcaption style="background-color: #737a28">
-            <div class="w3-xlarge" style="color: #000000;">
-              <h1 class="underline w3-xlarge" style="color: #000000">Biohazard</h1>
-              <p class="w3-small">A tactical kit that includes biohazard gear, filters, and medical supplies</p>
-              <p class="w3-tiny">*May be spawned once every one hour.*</p>
-            </div>
-            <button class="buttonkit" onclick="Alert.render('fuck it', 'Biohazard Kit')">View Details</button>
+            <button class="buttonkit" onclick="Alert.render('fuck it', 'Biohazard Kit')">
+              <div class="w3-xlarge" style="color: #FF9D0F;">
+                <h1 class="underline w3-xlarge" style="color: #FF9D0F">Biohazard</h1>
+                <p class="w3-medium">A tactical kit that includes biohazard gear, filters, and medical supplies</p>
+                <p class="w3-tiny">*Click for Details*</p>
+              </div>
+            </button>
           </figcaption>
         </figure>
       </div>
@@ -362,12 +379,13 @@ var Alert = new CustomAlert();
         <figure class="imghvr-fade w3-lemonmilk">
           <img class="kitsimages" src="http://i63.tinypic.com/2vx293p.png">
           <figcaption style="background-color: #737a28">
-            <div class="w3-xlarge" style="color: #000000;">
-              <h1 class="underline w3-xlarge" style="color: #000000">Ranger</h1>
-              <p class="w3-small">A weapons kit that equips you with rcmp gear, a zubeknakov, an augewehr, and ammo.</p>
-              <p class="w3-tiny">*May be spawned once every one hour.*</p>
-            </div>
-            <button class="buttonkit" onclick="Alert.render('fuck it', 'Ranger Kit')">View Details</button>
+            <button class="buttonkit" onclick="Alert.render('fuck it', 'Ranger Kit')">
+              <div class="w3-xlarge" style="color: #FF9D0F;">
+                <h1 class="underline w3-xlarge" style="color: #FF9D0F">Ranger</h1>
+                <p class="w3-medium">A weapons kit that equips you with rcmp gear, a zubeknakov, an augewehr, and ammo.</p>
+                <p class="w3-tiny">*Click for Details*</p>
+              </div>
+            </button>
           </figcaption>
         </figure>
       </div>
@@ -375,12 +393,13 @@ var Alert = new CustomAlert();
         <figure class="imghvr-fade w3-lemonmilk">
           <img class="kitsimages" src="http://i64.tinypic.com/20nybc.png">
           <figcaption style="background-color: #737a28">
-            <div class="w3-xlarge" style="color: #000000;">
-              <h1 class="underline w3-xlarge" style="color: #000000">Coastguard</h1>
-              <p class="w3-small">A tactical kit that includes a skipper and coastguard gear.</p>
-              <p class="w3-tiny">*May be spawned once every one hour.*</p>
-            </div>
-            <button class="buttonkit" onclick="Alert.render('fuck it', 'Coastguard Kit')">View Details</button>
+            <button class="buttonkit" onclick="Alert.render('fuck it', 'Coastguard Kit')">
+              <div class="w3-xlarge" style="color: #FF9D0F;">
+                <h1 class="underline w3-xlarge" style="color: #FF9D0F">Coastguard</h1>
+                <p class="w3-medium">A tactical kit that includes a skipper and coastguard gear.</p>
+                <p class="w3-tiny">*Click for Details*</p>
+              </div>
+            </button>
           </figcaption>
         </figure>
       </div>
@@ -388,12 +407,13 @@ var Alert = new CustomAlert();
         <figure class="imghvr-fade w3-lemonmilk">
           <img class="kitsimages" src="http://i64.tinypic.com/2nsc9qq.png">
           <figcaption style="background-color: #737a28">
-            <div class="w3-xlarge" style="color: #000000;">
-              <h1 class="underline w3-xlarge" style="color: #000000">Pilot</h1>
-              <p class="w3-small">A tactical kit that includes a fighter jet and fighter pilot gear.</p>
-              <p class="w3-tiny">*May be spawned once every one hour.*</p>
-            </div>
-            <button class="buttonkit" onclick="Alert.render('fuck it', 'Pilot Kit')">View Details</button>
+            <button class="buttonkit" onclick="Alert.render('fuck it', 'Pilot Kit')">
+              <div class="w3-xlarge" style="color: #FF9D0F;">
+                <h1 class="underline w3-xlarge" style="color: #FF9D0F">Pilot</h1>
+                <p class="w3-medium">A tactical kit that includes a fighter jet and fighter pilot gear.</p>
+                <p class="w3-tiny">*Click for Details*</p>
+              </div>
+            </button>
           </figcaption>
         </figure>
       </div>
@@ -404,12 +424,13 @@ var Alert = new CustomAlert();
         <figure class="imghvr-fade w3-lemonmilk">
           <img class="kitsimages" src="http://i65.tinypic.com/ev2zhs.png">
           <figcaption style="background-color: #737a28">
-            <div class="w3-xlarge" style="color: #000000;">
-              <h1 class="underline w3-xlarge" style="color: #000000">Shield</h1>
-              <p class="w3-small">A weapons kit that equips you with spec ops gear, a dragonfang, a honeybadger, tracer and fragmentation magazines, and ammo.</p>
-              <p class="w3-tiny">*May be spawned once every two hours.*</p>
-            </div>
-            <button class="buttonkit" onclick="Alert.render('fuck it', 'Shield Kit')">View Details</button>
+            <button class="buttonkit" onclick="Alert.render('fuck it', 'Shield Kit')">
+              <div class="w3-xlarge" style="color: #FF9D0F;">
+                <h1 class="underline w3-xlarge" style="color: #FF9D0F">Shield</h1>
+                <p class="w3-medium">A weapons kit that equips you with spec ops gear, a dragonfang, a honeybadger, tracer and fragmentation magazines, and ammo.</p>
+                <p class="w3-tiny">*Click for Details*</p>
+              </div>
+            </button>
           </figcaption>
         </figure>
       </div>
@@ -417,12 +438,13 @@ var Alert = new CustomAlert();
         <figure class="imghvr-fade w3-lemonmilk">
           <img class="kitsimages" src="http://i67.tinypic.com/2eo8axg.png">
           <figcaption style="background-color: #737a28">
-            <div class="w3-xlarge" style="color: #000000;">
-              <h1 class="underline w3-xlarge" style="color: #000000">Raid</h1>
-              <p class="w3-small">A weapons kit that equips you with spec ops gear, a nightraider, a rocket launcher, various explosive devices, and ammo.</p>
-              <p class="w3-tiny">*May be spawned once every two hours.*</p>
-            </div>
-            <button class="buttonkit" onclick="Alert.render('fuck it', 'Raid Kit')">View Details</button>
+            <button class="buttonkit" onclick="Alert.render('fuck it', 'Raid Kit')">
+              <div class="w3-xlarge" style="color: #FF9D0F;">
+                <h1 class="underline w3-xlarge" style="color: #FF9D0F">Raid</h1>
+                <p class="w3-medium">A weapons kit that equips you with spec ops gear, a nightraider, a rocket launcher, various explosive devices, and ammo.</p>
+                <p class="w3-tiny">*Click for Details*</p>
+              </div>
+            </button>
           </figcaption>
         </figure>
       </div>
@@ -430,12 +452,13 @@ var Alert = new CustomAlert();
         <figure class="imghvr-fade w3-lemonmilk">
           <img class="kitsimages" src="http://i65.tinypic.com/2hrhedv.png">
           <figcaption style="background-color: #737a28">
-            <div class="w3-xlarge" style="color: #000000;">
-              <h1 class="underline w3-xlarge" style="color: #000000">Sentry</h1>
-              <p class="w3-small">A tactical kit that includes hostile and neutral sentries, eaglefires, a generator, and a gas can.</p>
-              <p class="w3-tiny">*May be spawned once every two hours.*</p>
-            </div>
-            <button class="buttonkit" onclick="Alert.render('fuck it', 'Sentry Kit')">View Details</button>
+            <button class="buttonkit" onclick="Alert.render('fuck it', 'Sentry Kit')">
+              <div class="w3-xlarge" style="color: #FF9D0F;">
+                <h1 class="underline w3-xlarge" style="color: #FF9D0F">Sentry</h1>
+                <p class="w3-medium">A tactical kit that includes hostile and neutral sentries, eaglefires, a generator, and a gas can.</p>
+                <p class="w3-tiny">*Click for Details*</p>
+              </div>
+            </button>
           </figcaption>
         </figure>
       </div>
@@ -443,12 +466,13 @@ var Alert = new CustomAlert();
         <figure class="imghvr-fade w3-lemonmilk">
           <img class="kitsimages" src="http://i68.tinypic.com/2ldkayv.png">
           <figcaption style="background-color: #737a28">
-            <div class="w3-xlarge" style="color: #000000;">
-              <h1 class="underline w3-xlarge" style="color: #000000">Light Sniper</h1>
-              <p class="w3-small">A weapons kit that equips you with forest ghillie, a timberwolf, a honeybadger, and ammo.</p>
-              <p class="w3-tiny">*May be spawned once every two hours.*</p>
-            </div>
-            <button class="buttonkit" onclick="Alert.render('fuck it', 'Light Sniper Kit')">View Details</button>
+            <button class="buttonkit" onclick="Alert.render('fuck it', 'Light Sniper Kit')">
+              <div class="w3-xlarge" style="color: #FF9D0F;">
+                <h1 class="underline w3-xlarge" style="color: #FF9D0F">Light Sniper</h1>
+                <p class="w3-medium">A weapons kit that equips you with forest ghillie, a timberwolf, a honeybadger, and ammo.</p>
+                <p class="w3-tiny">*Click for Details*</p>
+              </div>
+            </button>
           </figcaption>
         </figure>
       </div>
@@ -456,12 +480,13 @@ var Alert = new CustomAlert();
         <figure class="imghvr-fade w3-lemonmilk">
           <img class="kitsimages" src="http://i68.tinypic.com/10e4rb6.png">
           <figcaption style="background-color: #737a28">
-            <div class="w3-xlarge" style="color: #000000;">
-              <h1 class="underline w3-xlarge" style="color: #000000">Heavy Sniper</h1>
-              <p class="w3-small">A weapons kit that equips you with forest ghillie, a grizzly, a honeybadger, and ammo.</p>
-              <p class="w3-tiny">*May be spawned once every two hours.*</p>
-            </div>
-            <button class="buttonkit" onclick="Alert.render('fuck it', 'Heavy Sniper Kit')">View Details</button>
+            <button class="buttonkit" onclick="Alert.render('fuck it', 'Heavy Sniper Kit')">
+              <div class="w3-xlarge" style="color: #FF9D0F;">
+                <h1 class="underline w3-xlarge" style="color: #FF9D0F">Heavy Sniper</h1>
+                <p class="w3-medium">A weapons kit that equips you with forest ghillie, a grizzly, a honeybadger, and ammo.</p>
+                <p class="w3-tiny">*Click for Details*</p>
+              </div>
+            </button>
           </figcaption>
         </figure>
       </div>
@@ -471,12 +496,13 @@ var Alert = new CustomAlert();
           <figure class="imghvr-fade w3-lemonmilk">
             <img class="kitsimages" src="http://i68.tinypic.com/9i7fq9.png">
             <figcaption style="background-color: #737a28">
-              <div class="w3-xlarge" style="color: #000000;">
-                <h1 class="underline w3-xlarge" style="color: #000000">Ammunition</h1>
-                <p class="w3-small">A tactical kit that includes low caliber military and ranger, and high caliber military and ranger ammo.</p>
-                <p class="w3-tiny">*May be spawned once every two hours.*</p>
-              </div>
-              <button class="buttonkit" onclick="Alert.render('fuck it', 'Ammunition Kit')">View Details</button>
+              <button class="buttonkit" onclick="Alert.render('fuck it', 'Ammunition Kit')">
+                <div class="w3-xlarge" style="color: #FF9D0F;">
+                  <h1 class="underline w3-xlarge" style="color: #FF9D0F">Ammunition</h1>
+                  <p class="w3-medium">A tactical kit that includes low caliber military and ranger, and high caliber military and ranger ammo.</p>
+                  <p class="w3-tiny">*Click for Details*</p>
+                </div>
+              </button>
             </figcaption>
           </figure>
         </div>
@@ -484,12 +510,13 @@ var Alert = new CustomAlert();
           <figure class="imghvr-fade w3-lemonmilk">
             <img class="kitsimages" src="http://i66.tinypic.com/2cd7f2b.png">
             <figcaption style="background-color: #737a28">
-              <div class="w3-xlarge" style="color: #000000;">
-                <h1 class="underline w3-xlarge" style="color: #000000">OP</h1>
-                <p class="w3-small">A weapons kit that equips you with a chariot, a hells fury, a honeybadger, explosives, and ammo.</p>
-                <p class="w3-tiny">*May be spawned once every two hours.*</p>
-              </div>
-              <button class="buttonkit" onclick="Alert.render('fuck it', 'OP Kit')">View Details</button>
+              <button class="buttonkit" onclick="Alert.render('fuck it', 'OP Kit')">
+                <div class="w3-xlarge" style="color: #FF9D0F;">
+                  <h1 class="underline w3-xlarge" style="color: #FF9D0F">OP</h1>
+                  <p class="w3-medium">A weapons kit that equips you with a chariot, a hells fury, a honeybadger, explosives, and ammo.</p>
+                  <p class="w3-tiny">*Click for Details*</p>
+                </div>
+              </button>
             </figcaption>
           </figure>
         </div>
@@ -497,12 +524,13 @@ var Alert = new CustomAlert();
           <figure class="imghvr-fade w3-lemonmilk">
             <img class="kitsimages" src="http://i66.tinypic.com/28rz33d.png">
             <figcaption style="background-color: #737a28">
-              <div class="w3-xlarge" style="color: #000000;">
-                <h1 class="underline w3-xlarge" style="color: #000000">Lancer</h1>
-                <p class="w3-small">A weapons kit that equips you with a lancer and lancer rockets.</p>
-                <p class="w3-tiny">*May be spawned once every two hours.*</p>
-              </div>
-              <button class="buttonkit" onclick="Alert.render('fuck it', 'Lancer Kit')">View Details</button>
+              <button class="buttonkit" onclick="Alert.render('fuck it', 'Lancer Kit')">
+                <div class="w3-xlarge" style="color: #FF9D0F;">
+                  <h1 class="underline w3-xlarge" style="color: #FF9D0F">Lancer</h1>
+                  <p class="w3-medium">A weapons kit that equips you with a lancer and lancer rockets.</p>
+                  <p class="w3-tiny">*Click for Details*</p>
+                </div>
+              </button>
             </figcaption>
           </figure>
         </div>
