@@ -173,7 +173,7 @@ img{vertical-align:middle}a{color:inherit}
 
 #dialogoverlay{
 	display: none;
-	opacity: 0.27;
+	opacity: 0.10;
 	position: fixed;
 	top: 0px;
 	background: #FF9D0F;
@@ -185,7 +185,7 @@ img{vertical-align:middle}a{color:inherit}
 	position: fixed;
 	overflow: auto;
 	margin: auto;
-	background: #33343B;
+	background: #4C4C4C;
 	right: 40%;
 	left: 40%;
 	top: 300px;
@@ -196,18 +196,18 @@ img{vertical-align:middle}a{color:inherit}
 }
 .buttonkit{
 	color: #000000;
-	background-color: #4e505b;
+	background: url(http://i65.tinypic.com/15zffpy.png);
 	border-width: 7px;
 	border-radius: 7px;
-	border-color: #FF9D0F;
+	border-color: #FF9C0F;
 	height: 275px;
 	width: 275px;
 }
 
-#dialogbox > div{ background:#606060; margin:7px; }
-#dialogbox > div > #dialogboxhead{ background: #FF9D0F; font-size:19px; padding:10px; color:#4e505b; text-align:center; }
-#dialogbox > div > #dialogboxbody{ background:#4e505b; padding:20px; color:#FF9D0F; overflow-y: scroll; max-height: 250px;}
-#dialogbox > div > #dialogboxfoot{ background: #FF9D0F; padding:10px; text-align: right;}
+#dialogbox > div{ background:#4C4C4C; margin:7px; }
+#dialogbox > div > #dialogboxhead{ background: #FF9C0F; font-size:19px; padding:10px; color:#4e505b; text-align:center; }
+#dialogbox > div > #dialogboxbody{ background:url(http://i65.tinypic.com/15zffpy.png); padding:20px; color:#FF9C0F; overflow-y: scroll; max-height: 250px;}
+#dialogbox > div > #dialogboxfoot{ background: #FF9C0F; padding:10px; text-align: right;}
 
 #dialogboxbody::-webkit-scrollbar { width: 12px; }
 #dialogboxbody::-webkit-scrollbar-track { -webkit-box-shadow: inset 0 0 6px #FF9D0F; -webkit-border-radius: 10px; border-radius: 10px; }
@@ -312,7 +312,14 @@ ul {
     position: relative;
 } */
 
+li {
+	margin-bottom: 5px
+}
 
+.borderkits {
+	border: solid, 7px, #575C1E;
+	border-radius: 10px;
+}
 
 .dropbtn {
     background-color: #000000;
