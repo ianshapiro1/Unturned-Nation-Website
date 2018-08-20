@@ -366,6 +366,14 @@ li {
 	border-radius: 10px;
 }
 
+.element {
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
 .leftalign{text-align:left;}
 @media only screen and (max-width: 1600px) {
   #titletext {font-size:80pt;}
