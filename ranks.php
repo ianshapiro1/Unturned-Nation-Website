@@ -45,7 +45,7 @@
   </div>
   <figure class=" badges imghvr-fade w3-lemonmilk" style="margin-top: 10px;padding-right: 30px; background-color: transparent; border-radius: 10px; border-width: 10px;">
     <img id="rarelogo" src="http://i67.tinypic.com/302chmx.png">
-    <figcaption style="background: url(http://i67.tinypic.com/2dj49x3.png)">
+    <figcaption style="background: url(http://i67.tinypic.com/2dj49x3.png); border: solid; border-color: #CD7F32; border-width: 5px;">
       <div class="w3-xxlarge" style="color: #09155C; margin-top: 30px;">
         RARE
       </div>
@@ -56,19 +56,19 @@
       <br>
       <div class="w3-large" style="color: #09155C; text-align: left">
         <ul>
-          <li style="padding-bottom:15px">Access to all Basic Kits*</li>
-          <li style="padding-bottom:15px">Rare Kit**</li>
-          <li style="padding-bottom:15px">2,500 XP per hour</li>
-          <li style="padding-bottom:15px">legareno and ural kits**</li>
-          <li style="padding-bottom:15px">/heal every hour</li>
-          <li>blueberry chat color</li>
+          <li style="padding-bottom:15px; color: #CD7F32">Access to all Basic Kits*</li>
+          <li style="padding-bottom:15px; color: #CD7F32">Rare Kit**</li>
+          <li style="padding-bottom:15px; color: #CD7F32">2,500 XP per hour</li>
+          <li style="padding-bottom:15px; color: #CD7F32">legareno and ural kits**</li>
+          <li style="padding-bottom:15px; color: #CD7F32">/heal every hour</li>
+          <li style="color: #CD7F32"><span class="element" style="color: #4B64FA;">blueberry</span> chat color</li>
         </ul>
       </div>
     </figcaption>
   </figure>
   <figure class=" badges imghvr-fade w3-lemonmilk" style="padding-right: 30px; padding-left: 30px; background-color: transparent; border-radius: 10px; border-width: 5px;">
     <img id="epiclogo" src="http://i67.tinypic.com/2dgkvtg.png">
-    <figcaption style="background: url(http://i67.tinypic.com/m8051e.png)">
+    <figcaption style="background: url(http://i67.tinypic.com/m8051e.png); border: solid; border-color: #C0C0C0; border-width: 5px;">
       <div class="w3-xxlarge" style="color: #2B0A57; margin-top: 30px;">
         EPIC
       </div>
@@ -84,14 +84,14 @@
           <li style="padding-bottom:15px">legareno, ural, apc, and transport heli kits**</li>
           <li style="padding-bottom:15px">/heal every hour</li>
           <li style="padding-bottom:15px">/airdrop every 4 hours</li>
-          <li style="padding-bottom:15px">grape chat color</li>
+          <li><span class="element" style="color: #964BFA;">grape</span> chat color</li>
         </ul>
       </div>
     </figcaption>
   </figure>
   <figure class=" badges imghvr-fade w3-lemonmilk" style="padding-right: 30px; padding-left: 30px; background-color: transparent; border-radius: 10px; border-width: 5px;">
     <img id="legendarylogo" src="http://i67.tinypic.com/25g8fnt.png">
-    <figcaption style="background: url(http://i68.tinypic.com/2ij43dk.png)">
+    <figcaption style="background: url(http://i68.tinypic.com/2ij43dk.png); border: solid; border-color: #CFB53B; border-width: 5px;">
       <div class="w3-xxlarge" style="color: #440B57; margin-top: 30px;">
         LEGENDARY
       </div>
@@ -107,14 +107,14 @@
           <li style="padding-bottom:15px">legareno, ural, apc, tank, hummingbird and transport heli kits**</li>
           <li style="padding-bottom:15px">/heal every hour</li>
           <li style="padding-bottom:15px">/airdrop every 2 hours</li>
-          <li style="padding-bottom:15px">raspberry chat color</li>
+          <li><span class="element" style="color: #C832FA;">raspberry</span> chat color</li>
         </ul>
       </div>
     </figcaption>
   </figure>
   <figure class=" badges imghvr-fade w3-lemonmilk" style="padding-left: 30px; background-color: transparent; border-radius: 10px; border-width: 5px;">
     <img id="mythicallogo" src="http://i64.tinypic.com/sfihbo.png">
-    <figcaption style="background:url(http://i67.tinypic.com/2yjoe3a.png)">
+    <figcaption style="background:url(http://i67.tinypic.com/2yjoe3a.png); border: solid; border-color: #E5E4E2; border-width: 5px;">
       <div class="w3-xxlarge" style="color: #400D06; margin-top: 30px;">
         MYTHICAL
       </div>
@@ -131,7 +131,7 @@
           <li style="padding-bottom:10px">attack, hummingbird, and transport heli kits**</li>
           <li style="padding-bottom:10px">/heal every half hour</li>
           <li style="padding-bottom:10px">/airdrop every hour</li>
-          <li style="padding-bottom:10px">cherry chat color</li>
+          <li><span class="element" style="color: #FA3219;">cherry</span> chat color</li>
         </ul>
       </div>
     </figcaption>
