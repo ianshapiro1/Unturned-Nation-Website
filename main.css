@@ -375,11 +375,19 @@ li {
 	#legendarylogo {width: 230px ;height: 420px}
 	#mythicallogo {width: 230px ;height: 420px}
   .w3-xxxlarge {
-    font-size: 38px!important;
+    font-size: 36px!important;
 }
-.w3-large {
-	font-size: 12px!important;
+	.w3-xxlarge {
+		font-size: 24px!important;
 }
+	.w3-xlarge {
+		font-size: 18px!important;
+	}
+	.w3-large {
+		font-size: 12px!important;
+}
+}
+
 @media only screen and (max-width: 1024px) {
 	#dialogbox {right: 23%; left: 23%; top: 200px;}
   #titletext {font-size:55pt;}
@@ -391,13 +399,19 @@ li {
 	#legendarylogo {width: 160px ;height: 300px}
 	#mythicallogo {width: 160px ;height: 300px}
   .w3-xxxlarge {
-    font-size: 38px!important;
+    font-size: 36px!important;
 }
-.w3-xxlarge {
-	font-size: 18px!important;
+	.w3-xxlarge {
+		font-size: 24px!important;
 }
-.w3-large {
-	font-size: 8.4px!important;
+	.w3-xlarge {
+		font-size: 15px!important;
+}
+	.w3-large {
+		font-size: 12px!important;
+}
+li {
+	margin-bottom: 0px
 }
 }
 
@@ -408,16 +422,20 @@ li {
   .w3-xlarge {font-size:18px!important;}
   .w3-padding-large {padding:18px 24px!important;}
   #header {padding: 140px 0px 0px 0px;}
-  .w3-xxxlarge, .w3-xxlarge {
-    font-size: 20px!important;}
-    .w3-button:hover {background-color:transparent;}
-    .w3-large {
-    font-size: 16px!important;}
-		.w3-xxlarge {
-			font-size: 18px!important;
-		}
-		.w3-large {
-			font-size: 9px!important;
-		}
+	.w3-xxxlarge {
+    font-size: 24px!important;
+}
+	.w3-xxlarge {
+		font-size: 18px!important;
+}
+	.w3-xlarge {
+		font-size: 15px!important;
+}
+	.w3-large {
+		font-size: 9px!important;
+}
+li {
+	margin-bottom: 0px
+}
 
 }

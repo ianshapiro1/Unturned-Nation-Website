@@ -46,18 +46,21 @@
   <figure class=" badges imghvr-fade w3-lemonmilk" style="margin-top: 10px;padding-right: 30px; background-color: transparent; border-radius: 10px; border-width: 10px;">
     <img id="rarelogo" src="http://i67.tinypic.com/302chmx.png">
     <figcaption style="background: url(http://i67.tinypic.com/2dj49x3.png)">
-      <div class="w3-xxlarge" style="color: #09155C;">
-        RARE <br> $2.50
+      <div class="w3-xxlarge" style="color: #09155C; margin-top: 30px;">
+        RARE
+      </div>
+      <div class="w3-xlarge" style="color: #09155C;">
+        $2.50 Donation
       </div>
       <br>
       <br>
       <div class="w3-large" style="color: #09155C; text-align: left">
         <ul>
-          <li>Access to all Basic Kits*</li>
-          <li>Rare Kit**</li>
-          <li>2,500 XP per hour</li>
-          <li>legareno and ural kits**</li>
-          <li>/heal every hour</li>
+          <li style="padding-bottom:15px">Access to all Basic Kits*</li>
+          <li style="padding-bottom:15px">Rare Kit**</li>
+          <li style="padding-bottom:15px">2,500 XP per hour</li>
+          <li style="padding-bottom:15px">legareno and ural kits**</li>
+          <li style="padding-bottom:15px">/heal every hour</li>
           <li>blueberry chat color</li>
         </ul>
       </div>
@@ -66,19 +69,22 @@
   <figure class=" badges imghvr-fade w3-lemonmilk" style="padding-right: 30px; padding-left: 30px; background-color: transparent; border-radius: 10px; border-width: 5px;">
     <img id="epiclogo" src="http://i67.tinypic.com/2dgkvtg.png">
     <figcaption style="background: url(http://i67.tinypic.com/m8051e.png)">
-      <div class="w3-xxlarge" style="color: #2B0A57;">
-        EPIC <br> $5.00
+      <div class="w3-xxlarge" style="color: #2B0A57; margin-top: 30px;">
+        EPIC
+      </div>
+      <div class="w3-xlarge" style="color: #2B0A57;">
+        $5.00 Donation
       </div>
       <br>
       <div class="w3-large" style="color: #2B0A57; text-align: left;">
         <ul>
-          <li>Access to all Premium and Basic Kits*</li>
-          <li>Epic and Rare Kits**</li>
-          <li>5,000 XP per hour</li>
-          <li>legareno, ural, apc, and transport heli kits**</li>
-          <li>/heal every hour</li>
-          <li>/airdrop every 4 hours</li>
-          <li>grape chat color</li>
+          <li style="padding-bottom:15px">Access to all Premium and Basic Kits*</li>
+          <li style="padding-bottom:15px">Epic and Rare Kits**</li>
+          <li style="padding-bottom:15px">5,000 XP per hour</li>
+          <li style="padding-bottom:15px">legareno, ural, apc, and transport heli kits**</li>
+          <li style="padding-bottom:15px">/heal every hour</li>
+          <li style="padding-bottom:15px">/airdrop every 4 hours</li>
+          <li style="padding-bottom:15px">grape chat color</li>
         </ul>
       </div>
     </figcaption>
@@ -86,19 +92,22 @@
   <figure class=" badges imghvr-fade w3-lemonmilk" style="padding-right: 30px; padding-left: 30px; background-color: transparent; border-radius: 10px; border-width: 5px;">
     <img id="legendarylogo" src="http://i67.tinypic.com/25g8fnt.png">
     <figcaption style="background: url(http://i68.tinypic.com/2ij43dk.png)">
-      <div class="w3-xxlarge" style="color: #440B57;">
-        LEGENDARY <br> $10.00
+      <div class="w3-xxlarge" style="color: #440B57; margin-top: 30px;">
+        LEGENDARY
+      </div>
+      <div class="w3-xlarge" style="color: #440B57;">
+        $10.00 Donation
       </div>
       <br>
       <div class="w3-large" style="color: #440B57;text-align: left">
         <ul>
-          <li>Access to all Deluxe, Premium, and Basic Kits*</li>
-          <li>Legendary, Epic, and Rare Kits**</li>
-          <li>10,000 XP per hour</li>
-          <li>legareno, ural, apc, tank, hummingbird and transport heli kits**</li>
-          <li>/heal every hour</li>
-          <li>/airdrop every 2 hours</li>
-          <li>raspberry chat color</li>
+          <li style="padding-bottom:15px">Access to all Deluxe, Premium, and Basic Kits*</li>
+          <li style="padding-bottom:15px">Legendary, Epic, and Rare Kits**</li>
+          <li style="padding-bottom:15px">10,000 XP per hour</li>
+          <li style="padding-bottom:15px">legareno, ural, apc, tank, hummingbird and transport heli kits**</li>
+          <li style="padding-bottom:15px">/heal every hour</li>
+          <li style="padding-bottom:15px">/airdrop every 2 hours</li>
+          <li style="padding-bottom:15px">raspberry chat color</li>
         </ul>
       </div>
     </figcaption>
@@ -106,20 +115,23 @@
   <figure class=" badges imghvr-fade w3-lemonmilk" style="padding-left: 30px; background-color: transparent; border-radius: 10px; border-width: 5px;">
     <img id="mythicallogo" src="http://i64.tinypic.com/sfihbo.png">
     <figcaption style="background:url(http://i67.tinypic.com/2yjoe3a.png)">
-      <div class="w3-xxlarge" style="color: #400D06;">
-        MYTHICAL <br> $20.00
+      <div class="w3-xxlarge" style="color: #400D06; margin-top: 30px;">
+        MYTHICAL
+      </div>
+      <div class="w3-xlarge" style="color: #400D06;">
+        $20.00 Donation
       </div>
       <br>
       <div class="w3-large" style="color: #400D06;text-align: left">
         <ul>
-          <li>Access to all Ultimate, Deluxe, Premium, and Basic Kits*</li>
-          <li>Mythical, Legendary, Epic, and Rare Kits**</li>
-          <li>20,000 XP per hour</li>
-          <li>legareno, ural, apc, tank, cerberus kits**</li>
-          <li>attack, hummingbird, and transport heli kits**</li>
-          <li>/heal every half hour</li>
-          <li>/airdrop every hour</li>
-          <li>cherry chat color</li>
+          <li style="padding-bottom:10px">Access to all Ultimate, Deluxe, Premium, and Basic Kits*</li>
+          <li style="padding-bottom:10px">Mythical, Legendary, Epic, and Rare Kits**</li>
+          <li style="padding-bottom:10px">20,000 XP per hour</li>
+          <li style="padding-bottom:10px">legareno, ural, apc, tank, cerberus kits**</li>
+          <li style="padding-bottom:10px">attack, hummingbird, and transport heli kits**</li>
+          <li style="padding-bottom:10px">/heal every half hour</li>
+          <li style="padding-bottom:10px">/airdrop every hour</li>
+          <li style="padding-bottom:10px">cherry chat color</li>
         </ul>
       </div>
     </figcaption>
