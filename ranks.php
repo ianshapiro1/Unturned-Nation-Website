@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html class="w3-bannerimage">
-<title>Unturned Nation</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="main.css">
-<link rel="stylesheet" href="imagehover.css">
-<script type="text/javascript" src="main.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.css">
-<script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.js"></script>
-
+<head>
+  <title>Unturned Nation</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="imagehover.css">
+  <link rel="icon" type="image/png" href="http://i65.tinypic.com/kbd0s0_th.png" sizes="16x16">
+</head>
 <body>
 
   <!-- Navbar -->
   <div class="w3-top" style="opacity: 0.95;">
-    <div class="w3-bar w3-opaqueteracotta w3-card w3-left-align w3-xlarge">
-      <a class="w3-bar-item w3-button w3-hide-large w3-right w3-padding-hamburger w3-hover-navbar"href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><img class="w3-right" style="padding-top: 10px; padding-right: 10px;" src="https://preview.ibb.co/hz3J3K/hamburger.png" width="50" height="50"/></a>
-      <a href="cart.php" class="w3-bar-item w3-button w3-right w3-hover-navbar w3-red"><img src="https://s33.postimg.cc/p97a2yacr/REALcarticon.png" width="45px" height="45px"/></a>
+    <div class="w3-bar w3-opaqueteracotta w3-card w3-left-align w3-navbarfontsize">
+      <a class="w3-bar-item w3-button w3-hide-large w3-right w3-padding-hamburger w3-hover-navbar"href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><img class="w3-right" src="https://preview.ibb.co/hz3J3K/hamburger.png" width="50" height="50"/></a>
+      <a href="cart.php" class="w3-bar-item w3-button w3-right w3-hover-navbar w3-red"><img src="https://s33.postimg.cc/p97a2yacr/REALcarticon.png" width="35px" height="35px"/></a>
       <a href="index.php" class="w3-bar-item w3-button w3-hover-navbar"><img id="homelogo" src="http://i65.tinypic.com/kbd0s0_th.png"/></a>
       <a href="kits.php" class="w3-bar-item w3-button w3-lemonmilk w3-hide-small w3-padding-large w3-hover-navbar w3-hover-text-green4 w3-text-green4">Kits</a>
       <a href="ranks.php" class="w3-bar-item w3-button w3-lemonmilk w3-hide-small w3-padding-large w3-hover-navbar w3-hover-text-green4 w3-text-green4">Ranks</a>
