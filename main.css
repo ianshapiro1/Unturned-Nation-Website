@@ -286,7 +286,7 @@ input, select {
   font-family: lemon;
 }
 
-#header {padding:100px 15px;}
+#header {padding:230px 15px;}
 .responsive {
     width: 100%;
     max-width: 1000px;
@@ -377,7 +377,7 @@ li {
 .leftalign{text-align:left;}
 @media only screen and (max-width: 1600px) {
   #titletext {font-size:80pt;}
-  #header {padding:200px 15px}
+  #header {padding:130px 15px}
 	#rarelogo {width: 230px ;height: 420px}
 	#epiclogo {width: 230px ;height: 420px}
 	#legendarylogo {width: 230px ;height: 420px}
@@ -429,6 +429,20 @@ li {
   .w3-twothird, .w3-third {width:100%; float:none;}
   .w3-xlarge {font-size:18px!important;}
   .w3-padding-large {padding:18px 24px!important;}
+<<<<<<< HEAD
+  #header {padding: 150px 15px}
+  .w3-xxxlarge, .w3-xxlarge {
+    font-size: 20px!important;}
+    .w3-button:hover {background-color:transparent;}
+    .w3-large {
+    font-size: 16px!important;}
+		.w3-xxlarge {
+			font-size: 18px!important;
+		}
+		.w3-large {
+			font-size: 9px!important;
+		}
+=======
   #header {padding: 140px 0px 0px 0px;}
 	.w3-xxxlarge {
     font-size: 24px!important;
@@ -445,5 +459,6 @@ li {
 li {
 	margin-bottom: 0px
 }
+>>>>>>> 9b01bf251c20691a9029711cf4e36ce80ba04a2c
 
 }
