@@ -81,7 +81,7 @@ var Alert = new CustomAlert();
             <div class="w3-xlarge" style="color: #FF9D0F;">
               <h1 class="underline w3-xlarge" style="color: #FF9D0F">Essentials</h1>
               <p class="w3-medium">A weapon and supplies kit with necessary items for survival, including a maplestrike, ammo, food, medical, gas, and a blow torch.</p>
-              <p class="w3-tiny">*Click for Details*</p>
+              <p class="w3-small">*Click for Details*</p>
             </div>
           </button>
           <form action="cart.php" method="post">
@@ -98,7 +98,7 @@ var Alert = new CustomAlert();
             <div class="w3-xlarge" style="color: #FF9D0F;">
               <h1 class="underline w3-xlarge" style="color: #FF9D0F">Meals</h1>
               <p class="w3-medium">A supply kit that contains MREs, coconut water, and energy bars.</p>
-              <p class="w3-tiny">*Click for Details*</p>
+              <p class="w3-small">*Click for Details*</p>
             </div>
           </button>
         </figcaption>
@@ -112,7 +112,7 @@ var Alert = new CustomAlert();
             <div class="w3-xlarge" style="color: #FF9D0F;">
               <h1 class="underline w3-xlarge" style="color: #FF9D0F">First Aid</h1>
               <p class="w3-medium">A supply kit that contains medkits, bloodbags, vaccines, antibiotics, dressings, and splints.</p>
-              <p class="w3-tiny">*Click for Details*</p>
+              <p class="w3-small">*Click for Details*</p>
             </div>
           </button>
         </figcaption>
@@ -126,7 +126,7 @@ var Alert = new CustomAlert();
             <div class="w3-xlarge" style="color: #FF9D0F;">
               <h1 class="underline w3-xlarge" style="color: #FF9D0F">Shelter</h1>
               <p class="w3-medium">A builder kit comprised of all metal housing, including bulletproof glass, doors, fences, and a claim flag.</p>
-              <p class="w3-tiny">*Click for Details*</p>
+              <p class="w3-small">*Click for Details*</p>
             </div>
           </button>
         </figcaption>
@@ -140,7 +140,7 @@ var Alert = new CustomAlert();
             <div class="w3-xlarge" style="color: #FF9D0F;">
               <h1 class="underline w3-xlarge" style="color: #FF9D0F">Storage</h1>
               <p class="w3-medium">A supply kit that contains 10 lockers.</p>
-              <p class="w3-tiny">*Click for Details*</p>
+              <p class="w3-small">*Click for Details*</p>
             </div>
           </button>
         </figcaption>
@@ -154,7 +154,7 @@ var Alert = new CustomAlert();
             <div class="w3-xlarge" style="color: #FF9D0F;">
               <h1 class="underline w3-xlarge" style="color: #FF9D0F">Water Supply</h1>
               <p class="w3-medium">A supply kit that contains rain barrels, a water tank, and a canteen.</p>
-              <p class="w3-tiny">*Click for Details*</p>
+              <p class="w3-small">*Click for Details*</p>
             </div>
           </button>
         </figcaption>
@@ -168,7 +168,7 @@ var Alert = new CustomAlert();
             <div class="w3-xlarge" style="color: #FF9D0F;">
               <h1 class="underline w3-xlarge" style="color: #FF9D0F">Energy Supply</h1>
               <p class="w3-medium">A supply kit that contains an industrial generator, an industrial gas can, and oil derricks.</p>
-              <p class="w3-tiny">*Click for Details*</p>
+              <p class="w3-small">*Click for Details*</p>
             </div>
           </button>
         </figcaption>
@@ -182,7 +182,7 @@ var Alert = new CustomAlert();
             <div class="w3-xlarge" style="color: #FF9D0F;">
               <h1 class="underline w3-xlarge" style="color: #FF9D0F">Defense</h1>
               <p class="w3-medium">A weapons kit that equips you with a snayperskya, a kryzkarek, and ammo.</p>
-              <p class="w3-tiny">*Click for Details*</p>
+              <p class="w3-small">*Click for Details*</p>
             </div>
           </button>
         </figcaption>
@@ -196,7 +196,7 @@ var Alert = new CustomAlert();
             <div class="w3-xlarge" style="color: #FF9D0F;">
               <h1 class="underline w3-xlarge" style="color: #FF9D0F">Offense</h1>
               <p class="w3-medium">A weapons kit that equips you with a bulldog, a calling card, and ammo.</p>
-              <p class="w3-tiny">*Click for Details*</p>
+              <p class="w3-small">*Click for Details*</p>
             </div>
           </button>
         </figcaption>
@@ -210,7 +210,7 @@ var Alert = new CustomAlert();
             <div class="w3-xlarge" style="color: #FF9D0F;">
               <h1 class="underline w3-xlarge" style="color: #FF9D0F">Attachments</h1>
               <p class="w3-medium">A tactical kit that includes 15 attachments.</p>
-              <p class="w3-tiny">*Click for Details*</p>
+              <p class="w3-small">*Click for Details*</p>
             </div>
           </button>
         </figcaption>
@@ -224,7 +224,7 @@ var Alert = new CustomAlert();
             <div class="w3-xlarge" style="color: #FF9D0F;">
               <h1 class="underline w3-xlarge" style="color: #FF9D0F">Repair</h1>
               <p class="w3-medium">A supply kit that contains metal, cloth, and a blow torch for quick repairs.</p>
-              <p class="w3-tiny">*Click for Details*</p>
+              <p class="w3-small">*Click for Details*</p>
             </div>
           </button>
         </figcaption>
@@ -238,7 +238,7 @@ var Alert = new CustomAlert();
             <div class="w3-xlarge" style="color: #FF9D0F;">
               <h1 class="underline w3-xlarge" style="color: #FF9D0F">Fences</h1>
               <p class="w3-medium">A tactical kit that includes barbed wire fences and barbed wire.</p>
-              <p class="w3-tiny">*Click for Details*</p>
+              <p class="w3-small">*Click for Details*</p>
             </div>
           </button>
         </figcaption>
@@ -252,7 +252,7 @@ var Alert = new CustomAlert();
             <div class="w3-xlarge" style="color: #FF9D0F;">
               <h1 class="underline w3-xlarge" style="color: #FF9D0F">Picnic</h1>
               <p class="w3-medium">A supply kit that contains plenty of food to share.</p>
-              <p class="w3-tiny">*Click for Details*</p>
+              <p class="w3-small">*Click for Details*</p>
             </div>
           </button>
         </figcaption>
@@ -266,7 +266,7 @@ var Alert = new CustomAlert();
             <div class="w3-xlarge" style="color: #FF9D0F;">
               <h1 class="underline w3-xlarge" style="color: #FF9D0F">Paint</h1>
               <p class="w3-medium">A very colorful kit.</p>
-              <p class="w3-tiny">*Click for Details*</p>
+              <p class="w3-small">*Click for Details*</p>
             </div>
           </button>
         </figcaption>
@@ -280,7 +280,7 @@ var Alert = new CustomAlert();
             <div class="w3-xlarge" style="color: #FF9D0F;">
               <h1 class="underline w3-xlarge" style="color: #FF9D0F">Horde</h1>
               <p class="w3-medium">A tactical kit that includes a horde beacon, ammo, and medical supplies.</p>
-              <p class="w3-tiny">*Click for Details*</p>
+              <p class="w3-small">*Click for Details*</p>
             </div>
           </button>
         </figcaption>
@@ -296,7 +296,7 @@ var Alert = new CustomAlert();
               <div class="w3-xlarge" style="color: #FF9D0F;">
                 <h1 class="underline w3-xlarge" style="color: #FF9D0F">Forest Military</h1>
                 <p class="w3-medium">A weapons kit that equips you with forest military gear, a swissgewehr, a desert falcon, and ammo.</p>
-                <p class="w3-tiny">*Click for Details*</p>
+                <p class="w3-small">*Click for Details*</p>
               </div>
             </button>
           </figcaption>
@@ -310,7 +310,7 @@ var Alert = new CustomAlert();
               <div class="w3-xlarge" style="color: #FF9D0F;">
                 <h1 class="underline w3-xlarge" style="color: #FF9D0F">Russian Military</h1>
                 <p class="w3-medium">A weapons kit that equips you with russian military gear, a nykorev, a teklowvka, and ammo.</p>
-                <p class="w3-tiny">*Click for Details*</p>
+                <p class="w3-small">*Click for Details*</p>
               </div>
             </button>
           </figcaption>
@@ -324,7 +324,7 @@ var Alert = new CustomAlert();
               <div class="w3-xlarge" style="color: #FF9D0F;">
                 <h1 class="underline w3-xlarge" style="color: #FF9D0F">Desert Military</h1>
                 <p class="w3-medium">A weapons kit that equips you with desert military gear, a fusilaut, a backlash, and ammo.</p>
-                <p class="w3-tiny">*Click for Details*</p>
+                <p class="w3-small">*Click for Details*</p>
               </div>
             </button>
           </figcaption>
@@ -338,7 +338,7 @@ var Alert = new CustomAlert();
               <div class="w3-xlarge" style="color: #FF9D0F;">
                 <h1 class="underline w3-xlarge" style="color: #FF9D0F">German Camo</h1>
                 <p class="w3-medium">A weapons kit that equips you with peaks ghillie, an ehko, a maschingehewr, and ammo.</p>
-                <p class="w3-tiny">*Click for Details*</p>
+                <p class="w3-small">*Click for Details*</p>
               </div>
             </button>
           </figcaption>
@@ -352,7 +352,7 @@ var Alert = new CustomAlert();
               <div class="w3-xlarge" style="color: #FF9D0F;">
                 <h1 class="underline w3-xlarge" style="color: #FF9D0F">Russian Camo</h1>
                 <p class="w3-medium">A weapons kit that equips you with russian ghillie, a matamorez, a yuri, and ammo.</p>
-                <p class="w3-tiny">*Click for Details*</p>
+                <p class="w3-small">*Click for Details*</p>
               </div>
             </button>
           </figcaption>
@@ -366,7 +366,7 @@ var Alert = new CustomAlert();
               <div class="w3-xlarge" style="color: #FF9D0F;">
                 <h1 class="underline w3-xlarge" style="color: #FF9D0F">Scuba</h1>
                 <p class="w3-medium">A tactical kit that includes diving gear, a scalar, an oxygenator, and ammo.</p>
-                <p class="w3-tiny">*Click for Details*</p>
+                <p class="w3-small">*Click for Details*</p>
               </div>
             </button>
           </figcaption>
@@ -380,7 +380,7 @@ var Alert = new CustomAlert();
               <div class="w3-xlarge" style="color: #FF9D0F;">
                 <h1 class="underline w3-xlarge" style="color: #FF9D0F">Biohazard</h1>
                 <p class="w3-medium">A tactical kit that includes biohazard gear, filters, and medical supplies</p>
-                <p class="w3-tiny">*Click for Details*</p>
+                <p class="w3-small">*Click for Details*</p>
               </div>
             </button>
           </figcaption>
@@ -394,7 +394,7 @@ var Alert = new CustomAlert();
               <div class="w3-xlarge" style="color: #FF9D0F;">
                 <h1 class="underline w3-xlarge" style="color: #FF9D0F">Ranger</h1>
                 <p class="w3-medium">A weapons kit that equips you with rcmp gear, a zubeknakov, an augewehr, and ammo.</p>
-                <p class="w3-tiny">*Click for Details*</p>
+                <p class="w3-small">*Click for Details*</p>
               </div>
             </button>
           </figcaption>
@@ -408,7 +408,7 @@ var Alert = new CustomAlert();
               <div class="w3-xlarge" style="color: #FF9D0F;">
                 <h1 class="underline w3-xlarge" style="color: #FF9D0F">Coastguard</h1>
                 <p class="w3-medium">A tactical kit that includes a skipper and coastguard gear.</p>
-                <p class="w3-tiny">*Click for Details*</p>
+                <p class="w3-small">*Click for Details*</p>
               </div>
             </button>
           </figcaption>
@@ -422,7 +422,7 @@ var Alert = new CustomAlert();
               <div class="w3-xlarge" style="color: #FF9D0F;">
                 <h1 class="underline w3-xlarge" style="color: #FF9D0F">Pilot</h1>
                 <p class="w3-medium">A tactical kit that includes a fighter jet and fighter pilot gear.</p>
-                <p class="w3-tiny">*Click for Details*</p>
+                <p class="w3-small">*Click for Details*</p>
               </div>
             </button>
           </figcaption>
@@ -439,7 +439,7 @@ var Alert = new CustomAlert();
               <div class="w3-xlarge" style="color: #FF9D0F;">
                 <h1 class="underline w3-xlarge" style="color: #FF9D0F">Shield</h1>
                 <p class="w3-medium">A weapons kit that equips you with spec ops gear, a dragonfang, a honeybadger, tracer and fragmentation magazines, and ammo.</p>
-                <p class="w3-tiny">*Click for Details*</p>
+                <p class="w3-small">*Click for Details*</p>
               </div>
             </button>
           </figcaption>
@@ -453,7 +453,7 @@ var Alert = new CustomAlert();
               <div class="w3-xlarge" style="color: #FF9D0F;">
                 <h1 class="underline w3-xlarge" style="color: #FF9D0F">Raid</h1>
                 <p class="w3-medium">A weapons kit that equips you with spec ops gear, a nightraider, a rocket launcher, various explosive devices, and ammo.</p>
-                <p class="w3-tiny">*Click for Details*</p>
+                <p class="w3-small">*Click for Details*</p>
               </div>
             </button>
           </figcaption>
@@ -467,7 +467,7 @@ var Alert = new CustomAlert();
               <div class="w3-xlarge" style="color: #FF9D0F;">
                 <h1 class="underline w3-xlarge" style="color: #FF9D0F">Sentry</h1>
                 <p class="w3-medium">A tactical kit that includes hostile and neutral sentries, eaglefires, a generator, and a gas can.</p>
-                <p class="w3-tiny">*Click for Details*</p>
+                <p class="w3-small">*Click for Details*</p>
               </div>
             </button>
           </figcaption>
@@ -481,7 +481,7 @@ var Alert = new CustomAlert();
               <div class="w3-xlarge" style="color: #FF9D0F;">
                 <h1 class="underline w3-xlarge" style="color: #FF9D0F">Light Sniper</h1>
                 <p class="w3-medium">A weapons kit that equips you with forest ghillie, a timberwolf, a honeybadger, and ammo.</p>
-                <p class="w3-tiny">*Click for Details*</p>
+                <p class="w3-small">*Click for Details*</p>
               </div>
             </button>
           </figcaption>
@@ -495,7 +495,7 @@ var Alert = new CustomAlert();
               <div class="w3-xlarge" style="color: #FF9D0F;">
                 <h1 class="underline w3-xlarge" style="color: #FF9D0F">Heavy Sniper</h1>
                 <p class="w3-medium">A weapons kit that equips you with forest ghillie, a grizzly, a honeybadger, and ammo.</p>
-                <p class="w3-tiny">*Click for Details*</p>
+                <p class="w3-small">*Click for Details*</p>
               </div>
             </button>
           </figcaption>
@@ -511,7 +511,7 @@ var Alert = new CustomAlert();
                 <div class="w3-xlarge" style="color: #FF9D0F;">
                   <h1 class="underline w3-xlarge" style="color: #FF9D0F">Ammunition</h1>
                   <p class="w3-medium">A tactical kit that includes low caliber military and ranger, and high caliber military and ranger ammo.</p>
-                  <p class="w3-tiny">*Click for Details*</p>
+                  <p class="w3-small">*Click for Details*</p>
                 </div>
               </button>
             </figcaption>
@@ -525,7 +525,7 @@ var Alert = new CustomAlert();
                 <div class="w3-xlarge" style="color: #FF9D0F;">
                   <h1 class="underline w3-xlarge" style="color: #FF9D0F">OP</h1>
                   <p class="w3-medium">A weapons kit that equips you with a chariot, a hells fury, a honeybadger, explosives, and ammo.</p>
-                  <p class="w3-tiny">*Click for Details*</p>
+                  <p class="w3-small">*Click for Details*</p>
                 </div>
               </button>
             </figcaption>
@@ -539,7 +539,7 @@ var Alert = new CustomAlert();
                 <div class="w3-xlarge" style="color: #FF9D0F;">
                   <h1 class="underline w3-xlarge" style="color: #FF9D0F">Lancer</h1>
                   <p class="w3-medium">A weapons kit that equips you with a lancer and lancer rockets.</p>
-                  <p class="w3-tiny">*Click for Details*</p>
+                  <p class="w3-small">*Click for Details*</p>
                 </div>
               </button>
             </figcaption>
