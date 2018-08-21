@@ -240,14 +240,6 @@ img{vertical-align:middle}a{color:inherit}
     display: block;
 }
 
-input, select {
-	font-family: lemonmilk;
-	background-color: #575C1E;
-	color: #ffffff;
-	padding: 10px 15px;
-  border: none;
-  border-radius: 2px;
-}
 
 .trianglebronze {
 	background-color: #CD7F32
