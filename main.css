@@ -369,6 +369,11 @@ li {
 		1px 1px 0 #000;
 }
 
+.transparent-style{
+    color: #000000;
+    opacity: 0.9;
+}
+
 .leftalign{text-align:left;}
 @media only screen and (max-width: 1600px) {
   #titletext {font-size:80pt;}
