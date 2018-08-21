@@ -11,31 +11,31 @@
 <body>
 
   <!-- Navbar -->
-  <div class="w3-top" style="opacity: 0.95;">
-    <div class="w3-bar w3-opaqueteracotta w3-card w3-left-align w3-navbarfontsize">
-      <a class="w3-bar-item w3-button w3-hide-large w3-right w3-padding-hamburger w3-hover-navbar"href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><img class="w3-right" src="https://preview.ibb.co/hz3J3K/hamburger.png" width="50" height="50"/></a>
-      <form class="w3-bar-item w3-button w3-hover-navbar w3-right" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
-        ">
-        <input type="image" src="http://s33.postimg.cc/p97a2yacr/REALcarticon.png" width="39px" height="39px" name="submit" alt="Paypal Cart"/>
-      </form>
-      <a href="index.php" class="w3-bar-item w3-button w3-hover-navbar"><img id="homelogo" src="http://i65.tinypic.com/kbd0s0_th.png"/></a>
-      <a href="kits.php" class="w3-bar-item w3-button w3-lemonmilk w3-hide-small w3-padding-large w3-hover-navbar w3-hover-text-green4 w3-text-green4">Kits</a>
-      <a href="ranks.php" class="w3-bar-item w3-button w3-lemonmilk w3-hide-small w3-padding-large w3-hover-navbar w3-hover-text-green4 w3-text-green4">Ranks</a>
-      <a href="perks.php" class="w3-bar-item w3-button w3-lemonmilk w3-hide-small w3-padding-large w3-hover-navbar w3-hover-text-green4 w3-text-green4">Perks</a>
-      <a href="upgrades.php" class="w3-bar-item w3-button w3-lemonmilk w3-hide-small w3-padding-large w3-hover-navbar w3-hover-text-green4 w3-text-green4">Upgrades</a>
-      <a href="contact.php" class="w3-bar-item w3-button w3-lemonmilk w3-hide-small w3-padding-large w3-hover-navbar w3-hover-text-green4 w3-text-green4">Contact Us</a>
-    </div>
-      <!-- Navbar on small screens -->
-    <div id="navDemo" class="w3-bar-block w3-opaqueteracotta w3-text-green4 w3-lemonmilk w3-hide w3-hide-large">
-      <a href="kits.php" class="w3-bar-item w3-button w3-padding-large">Kits</a>
-      <a href="ranks.php" class="w3-bar-item w3-button w3-padding-large">Ranks</a>
-      <a href="perks.php" class="w3-bar-item w3-button w3-padding-large">Perks</a>
-      <a href="upgrades.php" class="w3-bar-item w3-button w3-padding-large">Upgrades</a>
-      <a href="contact.php" class="w3-bar-item w3-button w3-padding-large">Contact Us</a>
-    </div>
+<div class="w3-top" style="opacity: 0.95;">
+  <div class="w3-bar w3-opaqueteracotta w3-card w3-left-align w3-navbarfontsize">
+    <a class="w3-bar-item w3-button w3-hide-large w3-right w3-padding-hamburger w3-hover-navbar"href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><img class="w3-right" src="https://preview.ibb.co/hz3J3K/hamburger.png" width="50" height="50"/></a>
+    <form class="w3-bar-item w3-button w3-hover-navbar w3-right" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+      ">
+      <input type="image" src="http://s33.postimg.cc/p97a2yacr/REALcarticon.png" width="39px" height="39px" name="submit" alt="Paypal Cart"/>
+    </form>
+    <a href="index.php" class="w3-bar-item w3-button w3-hover-navbar"><img id="homelogo" src="http://i65.tinypic.com/kbd0s0_th.png"/></a>
+    <a href="kits.php" class="w3-bar-item w3-button w3-lemonmilk w3-hide-small w3-padding-large w3-hover-navbar w3-hover-text-green4 w3-text-green4">Kits</a>
+    <a href="ranks.php" class="w3-bar-item w3-button w3-lemonmilk w3-hide-small w3-padding-large w3-hover-navbar w3-hover-text-green4 w3-text-green4">Ranks</a>
+    <a href="perks.php" class="w3-bar-item w3-button w3-lemonmilk w3-hide-small w3-padding-large w3-hover-navbar w3-hover-text-green4 w3-text-green4">Perks</a>
+    <a href="upgrades.php" class="w3-bar-item w3-button w3-lemonmilk w3-hide-small w3-padding-large w3-hover-navbar w3-hover-text-green4 w3-text-green4">Upgrades</a>
+    <a href="contact.php" class="w3-bar-item w3-button w3-lemonmilk w3-hide-small w3-padding-large w3-hover-navbar w3-hover-text-green4 w3-text-green4">Contact Us</a>
   </div>
+    <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-opaqueteracotta w3-text-green4 w3-lemonmilk w3-hide w3-hide-large">
+    <a href="kits.php" class="w3-bar-item w3-button w3-padding-large">Kits</a>
+    <a href="ranks.php" class="w3-bar-item w3-button w3-padding-large">Ranks</a>
+    <a href="perks.php" class="w3-bar-item w3-button w3-padding-large">Perks</a>
+    <a href="upgrades.php" class="w3-bar-item w3-button w3-padding-large">Upgrades</a>
+    <a href="contact.php" class="w3-bar-item w3-button w3-padding-large">Contact Us</a>
+  </div>
+</div>
 
 <div class="w3-center" style="margin-top: 50px;padding: 100px; padding-left: 0px; padding-right: 0px;">
   <div class="w3-text-white w3-lemonmilk">
