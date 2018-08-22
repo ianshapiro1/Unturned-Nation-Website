@@ -38,14 +38,14 @@
 </div>
 
 <div class="w3-center" style="margin-top: 50px;padding: 100px; padding-left: 0px; padding-right: 0px;">
-  <div class="w3-text-white w3-lemonmilk">
-    <h1 class="underline">Ranks</h1>
-    <p>Donate today to get a permanent rank that<br>
+  <div class=" w3-lemonmilk">
+    <h1 class="underline w3-xxlarge"><span class="rainbow">Ranks</span></h1>
+    <p class="w3-large" style="color:#4e505b">Donate today to get a permanent rank that<br>
       includes perks and kits on all of our PVP servers.
     </p>
     <br>
     <br>
-    <h2>Hover/Tap to see details</h2>
+    <h2 style="color:#4e505b">Hover/Tap to see details</h2>
   </div>
   <figure class=" badges imghvr-fade w3-lemonmilk" style="margin-top: 10px;padding-right: 30px; background-color: transparent; border-radius: 10px; border-width: 10px;">
     <img id="rarelogo" src="http://i67.tinypic.com/302chmx.png">
@@ -73,7 +73,7 @@
   <form style="float: bottom" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
     <input type="hidden" name="cmd" value="_s-xclick">
     <input type="hidden" name="hosted_button_id" value="3NNPB62HDZFYJ">
-    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+    <input type="image" src="https://s33.postimg.cc/abr1k4p3j/addtocartorange.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
   </form>
 

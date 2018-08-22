@@ -74,12 +74,12 @@ var Alert = new CustomAlert();
 
 <div class="w3-container">
   <div class="w3-lemonmilk w3-center w3-text-white" style="padding: 100px; padding-left: 0px; padding-right: 0px;">
-    <h1 class="underline w3-text-green3">Kits</h1>
-    <p class="w3-text-green4">Donate today for access to Basic, Premium, and Deluxe Kits</p>
+    <h1 class="underline orange w3-xxlarge">Kits</h1>
+    <p class="w3-large" style="color:#4e505b">Donate today for access to Basic, Deluxe, Premium, and Ultimate Kits</p>
     <br>
     <br>
     <br>
-    <h2 class="underline w3-text-green3 borderkits" style="margin-top: 100px; margin-bottom: 10px;">Basic ($1.00 each)</h2>
+    <h2 class="underline orange borderkits" style="background-color: #4e505b; opacity: 0.9;margin-top: 160px;margin-left: 150px;margin-right: 150px;border:solid;">Basic ($1.00 each)</h2>
     <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px;"
       <figure class="imghvr-fade w3-lemonmilk">
         <img class="kitsimages" src="http://i68.tinypic.com/6ixs06.png">
@@ -91,12 +91,15 @@ var Alert = new CustomAlert();
               <p class="w3-small">*Click for Details*</p>
             </div>
           </button>
-          <form action="cart.php" method="post">
-            <input type="submit"/>
-          </form>
         </figcaption>
       </figure>
     </div>
+    <form style="float: bottom" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="3NNPB62HDZFYJ">
+      <input type="image" src="https://s33.postimg.cc/exn5ss0fj/addtocartorange.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
     <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
       <figure class="imghvr-fade w3-lemonmilk">
         <img class="kitsimages" src="http://i64.tinypic.com/swqpma.png">
@@ -111,6 +114,12 @@ var Alert = new CustomAlert();
         </figcaption>
       </figure>
     </div>
+    <form style="float: bottom" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="3NNPB62HDZFYJ">
+      <input type="image" src="https://s33.postimg.cc/rdjvmitrj/addtocartgray.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
     <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
       <figure class="imghvr-fade w3-lemonmilk">
         <img class="kitsimages" src="http://i67.tinypic.com/710107.png">
@@ -125,6 +134,12 @@ var Alert = new CustomAlert();
         </figcaption>
       </figure>
     </div>
+    <form style="float: bottom" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="3NNPB62HDZFYJ">
+      <input type="image" src="https://s33.postimg.cc/exn5ss0fj/addtocartorange.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
     <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
       <figure class="imghvr-fade w3-lemonmilk">
         <img class="kitsimages" src="http://i68.tinypic.com/2hp7ypw.jpg">
@@ -139,6 +154,12 @@ var Alert = new CustomAlert();
         </figcaption>
       </figure>
     </div>
+    <form style="float: bottom" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="3NNPB62HDZFYJ">
+      <input type="image" src="https://s33.postimg.cc/exn5ss0fj/addtocartorange.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
     <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
       <figure class="imghvr-fade w3-lemonmilk">
         <img class="kitsimages" src="http://i66.tinypic.com/28jzkmb.png">
@@ -293,7 +314,7 @@ var Alert = new CustomAlert();
         </figcaption>
       </figure>
     </div>
-    <h2 class="underline w3-text-green3" style="padding-top: 150px;padding-bottom: 10px">Premium ($2.50 each)</h2>
+    <h2 class="underline orange borderkits" style="background-color: #4e505b; opacity: 0.9;margin-top: 160px;margin-left: 150px;margin-right: 150px;border:solid">Premium ($2.50 each)</h2>
     <div>
       <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
         <figure class="imghvr-fade w3-lemonmilk">
@@ -436,11 +457,11 @@ var Alert = new CustomAlert();
         </figure>
       </div>
     </div>
-    <h2 class="underline w3-text-green3" style="padding-top: 150px;padding-bottom: 10px">Deluxe ($5.00 each)</h2>
+    <h2 class="underline orange borderkits" style="background-color: #4e505b; opacity: 0.9;margin-top: 160px;margin-left: 150px;margin-right: 150px;border:solid">Deluxe ($5.00 each)</h2>
     <div>
       <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
         <figure class="imghvr-fade w3-lemonmilk">
-          <img class="kitsimages" src="http://i65.tinypic.com/ev2zhs.png">
+          <img class="kitsimages" src="https://s33.postimg.cc/gk36masi7/Shield_Kit.png">
           <figcaption style="background-color: #737a28">
             <button class="buttonkit" onclick="Alert.render('<p>Command: /kit shield<br>May be spawned once per hour.</p><p>This kit includes:</p><ul><li>Spec Ops Beret</li><li>Military Nightvision</li><li>Spec Ops Top</li><li>Spec Ops Vest</li><li>Spec Ops Bottom</li><li>Alicepack</li><li>Dragonfang</li><li>Dragonfang Box x2</li><li>Honeybadger</li><li>Military Drum x2</li><li>Tracer Magazines x3</li><li>Fragmentation Magazines x2</li><li>Rangefinder</li><li>Red Dot Sight</li><li>Vertical Grip x2</li><li>Adaptive Chambering</li><li>Military Barrel</li><li>Low Caliber Military Ammunition x5</li><li>Military Knife</li><li>Flashbangs x3</li><li>MRE x3</li><li>Medkit x2</li><li>Bloodbag x2</li><li>Vaccine</li><li>Dressing x5</li></ul>', 'Shield Kit')">
               <div class="w3-xlarge" style="color: #FF9D0F;">
@@ -454,7 +475,7 @@ var Alert = new CustomAlert();
       </div>
       <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
         <figure class="imghvr-fade w3-lemonmilk">
-          <img class="kitsimages" src="http://i67.tinypic.com/2eo8axg.png">
+          <img class="kitsimages" src="https://s33.postimg.cc/hz4rb1ogf/Raid_Kit.png">
           <figcaption style="background-color: #737a28">
             <button class="buttonkit" onclick="Alert.render('<p>Command: /kit raid<br>May be spawned once per hour.</p><p>This kit includes:</p><ul><li>Spec Ops Beret</li><li>Military Nightvision</li><li>Spec Ops Top</li><li>Spec Ops Vest</li><li>Spec Ops Bottom</li><li>Alicepack</li><li>Nightraider</li><li>Military Drum x2</li><li>Rocket Launcher</li><li>Rocket x4</li><li>Rangefinder</li><li>Red Dot Sight</li><li>Vertical Grip</li><li>Adaptive Chambering</li><li>Low Caliber Military Ammunition x5</li><li>Demolition Charges x8</li><li>Precision Charges x4</li><li>Detonator</li><li>Impact Grenade x3</li><li>Sticky Grenade x3</li><li>Military Knife</li><li>Flashbangs x3</li><li>MRE x3</li><li>Medkit x2</li><li>Bloodbag x2</li><li>Vaccine</li><li>Dressing x5</li></ul>', 'Raid Kit')">
               <div class="w3-xlarge" style="color: #FF9D0F;">
@@ -508,7 +529,7 @@ var Alert = new CustomAlert();
           </figcaption>
         </figure>
       </div>
-      <h2 class="underline w3-text-green3" style="padding-top: 150px;padding-bottom: 10px">Ultimate ($10.00 each)</h2>
+        <h2 class="underline orange borderkits" style="background-color: #4e505b; opacity: 0.9;margin-top: 160px;margin-left: 150px;margin-right: 150px;border:solid">Ultimate ($10.00 each)</h2>
       <div>
         <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
           <figure class="imghvr-fade w3-lemonmilk">
