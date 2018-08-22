@@ -173,8 +173,14 @@ img{vertical-align:middle}a{color:inherit}
 .gold{color: #CFB53B!important}
 .platinum{color: #E5E4E2!important}
 
+.kitsdiv {
+	left: 10%;
+	right: 10%;
+	display: block;
+}
+
 #paypaladd {
-	width: 200px;
+	
 }
 
 #dialogoverlay{

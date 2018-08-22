@@ -72,41 +72,40 @@ var Alert = new CustomAlert();
 
 
 
-<div style="position: relative">
-  <div class="w3-lemonmilk w3-center w3-text-white" style="padding: 100px; padding-left: 0px; padding-right: 0px;">
+<div class="w3-center">
+  <div class="w3-lemonmilk kitsdiv w3-text-white" style="padding: 100px; padding-left: 0px; padding-right: 0px;">
     <h1 class="underline orange w3-xxlarge">Kits</h1>
     <p class="w3-large" style="color:#4e505b">Donate today for access to Basic, Deluxe, Premium, and Ultimate Kits</p>
     <br>
     <br>
     <br>
     <h2 class="underline orange borderkits" style="background-color: #4e505b; opacity: 0.9;margin-top: 160px;margin-left: 150px;margin-right: 150px;border:solid;">Basic ($1.00 each)</h2>
-    <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px;"
-      <div>
-        <figure class="imghvr-fade w3-lemonmilk" style="position: relative">
-          <img class="kitsimages" src="http://i68.tinypic.com/6ixs06.png">
-          <figcaption style="background-color: #737a28">
-            <button class="buttonkit" onclick="Alert.render('<p>Command: /kit essentials<br>May be spawned once per hour.</p><p>This kit includes:</p><ul><li>Maplestrike</li><li>Military Mag x2</li><li>Military Crate x2</li><li>Gas Can</li><li>Blow Torch</li><li>MRE x2</li><li>Water x2</li><li>Dressing x5</li><li>Antibiotics x3</li></ul>', 'Essentials Kit')">
-              <div class="w3-xlarge" style="color: #FF9D0F;">
-                <h1 class="underline w3-xlarge" style="color: #FF9D0F">Essentials</h1>
-                <p class="w3-medium">A weapon and supplies kit with necessary items for survival, including a maplestrike, ammo, food, medical, gas, and a blow torch.</p>
-                <p class="w3-small">*Click for Details*</p>
-              </div>
-            </button>
-          </figcaption>
-        </figure>
-      </div>
+
+
+    <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px; display: inline-block">
+      <figure class="imghvr-fade w3-lemonmilk">
+        <img class="kitsimages" src="http://i68.tinypic.com/6ixs06.png">
+        <figcaption style="background-color: #737a28">
+          <button class="buttonkit" onclick="Alert.render('<p>Command: /kit essentials<br>May be spawned once per hour.</p><p>This kit includes:</p><ul><li>Maplestrike</li><li>Military Mag x2</li><li>Military Crate x2</li><li>Gas Can</li><li>Blow Torch</li><li>MRE x2</li><li>Water x2</li><li>Dressing x5</li><li>Antibiotics x3</li></ul>', 'Essentials Kit')">
+            <div class="w3-xlarge" style="color: #FF9D0F;">
+              <h1 class="underline w3-xlarge" style="color: #FF9D0F">Essentials</h1>
+              <p class="w3-medium">A weapon and supplies kit with necessary items for survival, including a maplestrike, ammo, food, medical, gas, and a blow torch.</p>
+              <p class="w3-small">*Click for Details*</p>
+            </div>
+          </button>
+        </figcaption>
+      </figure>
       <form id="paypaladd" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="hosted_button_id" value="3NNPB62HDZFYJ">
-        <input type="image" src="https://s33.postimg.cc/exn5ss0fj/addtocartorange.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <input type="image" src="https://s33.postimg.cc/exn5ss0fj/addtocartorange.png" name="submit" alt="PayPal - The safer, easier way to pay online!">
         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
       </form>
     </div>
-
-    <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
-      <figure class="imghvr-fade w3-lemonmilk">
+    <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px; display: inline-block;">
+      <figure class="imghvr-fade w3-lemonmilk" style="border-radius: 10px;">
         <img class="kitsimages" src="http://i64.tinypic.com/swqpma.png">
-        <figcaption style="background-color: #737a28">
+        <figcaption style="background-color: #737a28; border-radius: 10px;">
           <button class="buttonkit" onclick="Alert.render('<p>Command: /kit meals<br>May be spawned once per hour.</p><p>This kit includes:</p><ul><li>MRE x10</li><li>Coconut Water x5</li><li>Energy Bar x5</li></ul>', 'Meals Kit')">
             <div class="w3-xlarge" style="color: #FF9D0F;">
               <h1 class="underline w3-xlarge" style="color: #FF9D0F">Meals</h1>
@@ -116,14 +115,14 @@ var Alert = new CustomAlert();
           </button>
         </figcaption>
       </figure>
+      <form id="paypaladd" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="3NNPB62HDZFYJ">
+        <input type="image" src="https://s33.postimg.cc/exn5ss0fj/addtocartorange.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+      </form>
     </div>
-    <form style="float: bottom" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-      <input type="hidden" name="cmd" value="_s-xclick">
-      <input type="hidden" name="hosted_button_id" value="3NNPB62HDZFYJ">
-      <input type="image" src="https://s33.postimg.cc/rdjvmitrj/addtocartgray.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-    </form>
-    <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
+    <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px; display: inline-block;">
       <figure class="imghvr-fade w3-lemonmilk">
         <img class="kitsimages" src="http://i67.tinypic.com/710107.png">
         <figcaption style="background-color: #737a28">
@@ -136,14 +135,14 @@ var Alert = new CustomAlert();
           </button>
         </figcaption>
       </figure>
+      <form style="float: bottom" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="3NNPB62HDZFYJ">
+        <input type="image" src="https://s33.postimg.cc/exn5ss0fj/addtocartorange.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+      </form>
     </div>
-    <form style="float: bottom" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-      <input type="hidden" name="cmd" value="_s-xclick">
-      <input type="hidden" name="hosted_button_id" value="3NNPB62HDZFYJ">
-      <input type="image" src="https://s33.postimg.cc/exn5ss0fj/addtocartorange.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-    </form>
-    <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
+    <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px; display: inline-block;">
       <figure class="imghvr-fade w3-lemonmilk">
         <img class="kitsimages" src="http://i68.tinypic.com/2hp7ypw.jpg">
         <figcaption style="background-color: #737a28">
@@ -156,14 +155,14 @@ var Alert = new CustomAlert();
           </button>
         </figcaption>
       </figure>
+      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="3NNPB62HDZFYJ">
+        <input type="image" src="https://s33.postimg.cc/exn5ss0fj/addtocartorange.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+      </form>
     </div>
-    <form style="float: bottom" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-      <input type="hidden" name="cmd" value="_s-xclick">
-      <input type="hidden" name="hosted_button_id" value="3NNPB62HDZFYJ">
-      <input type="image" src="https://s33.postimg.cc/exn5ss0fj/addtocartorange.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-    </form>
-    <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
+    <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px; display: inline-block;">
       <figure class="imghvr-fade w3-lemonmilk">
         <img class="kitsimages" src="http://i66.tinypic.com/28jzkmb.png">
         <figcaption style="background-color: #737a28">
@@ -177,7 +176,7 @@ var Alert = new CustomAlert();
         </figcaption>
       </figure>
     </div>
-    <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
+    <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px; display: inline-block;">
       <figure class="imghvr-fade w3-lemonmilk">
         <img class="kitsimages" src="http://i63.tinypic.com/2ccxamr.png">
         <figcaption style="background-color: #737a28">
@@ -191,7 +190,7 @@ var Alert = new CustomAlert();
         </figcaption>
       </figure>
     </div>
-    <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
+    <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px; display: inline-block;">
       <figure class="imghvr-fade w3-lemonmilk">
         <img class="kitsimages" src="http://i68.tinypic.com/143drnr.png">
         <figcaption style="background-color: #737a28">
@@ -205,7 +204,7 @@ var Alert = new CustomAlert();
         </figcaption>
       </figure>
     </div>
-    <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
+    <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px; display: inline-block;">
       <figure class="imghvr-fade w3-lemonmilk">
         <img class="kitsimages" src="http://i66.tinypic.com/2ijtcnb.png">
         <figcaption style="background-color: #737a28">
@@ -219,7 +218,7 @@ var Alert = new CustomAlert();
         </figcaption>
       </figure>
     </div>
-    <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
+    <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px; display: inline-block;">
       <figure class="imghvr-fade w3-lemonmilk">
         <img class="kitsimages" src="http://i63.tinypic.com/2rd9m6g.png">
         <figcaption style="background-color: #737a28">
@@ -233,7 +232,7 @@ var Alert = new CustomAlert();
         </figcaption>
       </figure>
     </div>
-    <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
+    <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px; display: inline-block;">
       <figure class="imghvr-fade w3-lemonmilk">
         <img class="kitsimages" src="http://i67.tinypic.com/5x6ija.png">
         <figcaption style="background-color: #737a28">
@@ -247,7 +246,7 @@ var Alert = new CustomAlert();
         </figcaption>
       </figure>
     </div>
-    <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
+    <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px; display: inline-block;">
       <figure class="imghvr-fade w3-lemonmilk">
         <img class="kitsimages" src="http://i65.tinypic.com/bjdhdf.png">
         <figcaption style="background-color: #737a28">
@@ -261,7 +260,7 @@ var Alert = new CustomAlert();
         </figcaption>
       </figure>
     </div>
-    <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
+    <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px; display: inline-block;">
       <figure class="imghvr-fade w3-lemonmilk">
         <img class="kitsimages" src="http://i67.tinypic.com/o93887.png">
         <figcaption style="background-color: #737a28">
@@ -275,7 +274,7 @@ var Alert = new CustomAlert();
         </figcaption>
       </figure>
     </div>
-    <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
+    <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px; display: inline-block;">
       <figure class="imghvr-fade w3-lemonmilk">
         <img class="kitsimages" src="http://i67.tinypic.com/24mdp1t.png">
         <figcaption style="background-color: #737a28">
@@ -289,7 +288,7 @@ var Alert = new CustomAlert();
         </figcaption>
       </figure>
     </div>
-      <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
+    <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px; display: inline-block;">
       <figure class="imghvr-fade w3-lemonmilk">
         <img class="kitsimages" src="http://i67.tinypic.com/2irx9py.png">
         <figcaption style="background-color: #737a28">
@@ -303,7 +302,7 @@ var Alert = new CustomAlert();
         </figcaption>
       </figure>
     </div>
-    <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px;"
+    <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px; display: inline-block;">
       <figure class="imghvr-fade w3-lemonmilk">
         <img class="kitsimages" src="http://i68.tinypic.com/95pi0z.png">
         <figcaption style="background-color: #737a28">
@@ -319,7 +318,7 @@ var Alert = new CustomAlert();
     </div>
     <h2 class="underline orange borderkits" style="background-color: #4e505b; opacity: 0.9;margin-top: 160px;margin-left: 150px;margin-right: 150px;border:solid">Premium ($2.50 each)</h2>
     <div>
-      <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
+      <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px">
         <figure class="imghvr-fade w3-lemonmilk">
           <img class="kitsimages" src="http://i65.tinypic.com/k2hant.png">
           <figcaption style="background-color: #737a28">
@@ -333,7 +332,7 @@ var Alert = new CustomAlert();
           </figcaption>
         </figure>
       </div>
-      <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
+      <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px">
         <figure class="imghvr-fade w3-lemonmilk">
           <img class="kitsimages" src="http://i68.tinypic.com/vr3lo2.png">
           <figcaption style="background-color: #737a28">
@@ -347,7 +346,7 @@ var Alert = new CustomAlert();
           </figcaption>
         </figure>
       </div>
-      <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
+      <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px">
         <figure class="imghvr-fade w3-lemonmilk">
           <img class="kitsimages" src="http://i63.tinypic.com/5bsgso.png">
           <figcaption style="background-color: #737a28">
@@ -361,7 +360,7 @@ var Alert = new CustomAlert();
           </figcaption>
         </figure>
       </div>
-      <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
+      <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px">
         <figure class="imghvr-fade w3-lemonmilk">
           <img class="kitsimages" src="http://i63.tinypic.com/255rz4k.png">
           <figcaption style="background-color: #737a28">
@@ -375,7 +374,7 @@ var Alert = new CustomAlert();
           </figcaption>
         </figure>
       </div>
-      <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
+      <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px">
         <figure class="imghvr-fade w3-lemonmilk">
           <img class="kitsimages" src="http://i64.tinypic.com/15qfacy.png">
           <figcaption style="background-color: #737a28">
@@ -389,7 +388,7 @@ var Alert = new CustomAlert();
           </figcaption>
         </figure>
       </div>
-      <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
+      <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px">
         <figure class="imghvr-fade w3-lemonmilk">
           <img class="kitsimages" src="http://i63.tinypic.com/k1b2pc.png">
           <figcaption style="background-color: #737a28">
@@ -403,7 +402,7 @@ var Alert = new CustomAlert();
           </figcaption>
         </figure>
       </div>
-      <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
+      <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px">
         <figure class="imghvr-fade w3-lemonmilk">
           <img class="kitsimages" src="http://i67.tinypic.com/2u4q7hi.png">
           <figcaption style="background-color: #737a28">
@@ -417,7 +416,7 @@ var Alert = new CustomAlert();
           </figcaption>
         </figure>
       </div>
-      <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
+      <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px">
         <figure class="imghvr-fade w3-lemonmilk">
           <img class="kitsimages" src="http://i66.tinypic.com/f0wet.png">
           <figcaption style="background-color: #737a28">
@@ -431,7 +430,7 @@ var Alert = new CustomAlert();
           </figcaption>
         </figure>
       </div>
-      <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
+      <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px">
         <figure class="imghvr-fade w3-lemonmilk">
           <img class="kitsimages" src="http://i63.tinypic.com/1zx8kfa.png">
           <figcaption style="background-color: #737a28">
@@ -445,7 +444,7 @@ var Alert = new CustomAlert();
           </figcaption>
         </figure>
       </div>
-      <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
+      <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px">
         <figure class="imghvr-fade w3-lemonmilk">
           <img class="kitsimages" src="http://i67.tinypic.com/2rhplhf.png">
           <figcaption style="background-color: #737a28">
@@ -462,7 +461,7 @@ var Alert = new CustomAlert();
     </div>
     <h2 class="underline orange borderkits" style="background-color: #4e505b; opacity: 0.9;margin-top: 160px;margin-left: 150px;margin-right: 150px;border:solid">Deluxe ($5.00 each)</h2>
     <div>
-      <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
+      <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px">
         <figure class="imghvr-fade w3-lemonmilk">
           <img class="kitsimages" src="https://s33.postimg.cc/gk36masi7/Shield_Kit.png">
           <figcaption style="background-color: #737a28">
@@ -476,7 +475,7 @@ var Alert = new CustomAlert();
           </figcaption>
         </figure>
       </div>
-      <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
+      <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px">
         <figure class="imghvr-fade w3-lemonmilk">
           <img class="kitsimages" src="https://s33.postimg.cc/hz4rb1ogf/Raid_Kit.png">
           <figcaption style="background-color: #737a28">
@@ -490,7 +489,7 @@ var Alert = new CustomAlert();
           </figcaption>
         </figure>
       </div>
-      <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
+      <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px">
         <figure class="imghvr-fade w3-lemonmilk">
           <img class="kitsimages" src="http://i65.tinypic.com/2hrhedv.png">
           <figcaption style="background-color: #737a28">
@@ -504,7 +503,7 @@ var Alert = new CustomAlert();
           </figcaption>
         </figure>
       </div>
-      <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
+      <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px">
         <figure class="imghvr-fade w3-lemonmilk">
           <img class="kitsimages" src="http://i68.tinypic.com/2ldkayv.png">
           <figcaption style="background-color: #737a28">
@@ -518,7 +517,7 @@ var Alert = new CustomAlert();
           </figcaption>
         </figure>
       </div>
-      <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
+      <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px">
         <figure class="imghvr-fade w3-lemonmilk">
           <img class="kitsimages" src="http://i68.tinypic.com/10e4rb6.png">
           <figcaption style="background-color: #737a28">
@@ -532,9 +531,9 @@ var Alert = new CustomAlert();
           </figcaption>
         </figure>
       </div>
-        <h2 class="underline orange borderkits" style="background-color: #4e505b; opacity: 0.9;margin-top: 160px;margin-left: 150px;margin-right: 150px;border:solid">Ultimate ($10.00 each)</h2>
-      <div>
-        <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
+    <h2 class="underline orange borderkits" style="background-color: #4e505b; opacity: 0.9;margin-top: 160px;margin-left: 150px;margin-right: 150px;border:solid">Ultimate ($10.00 each)</h2>
+    <div>
+        <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px">
           <figure class="imghvr-fade w3-lemonmilk">
             <img class="kitsimages" src="http://i68.tinypic.com/9i7fq9.png">
             <figcaption style="background-color: #737a28">
@@ -548,7 +547,7 @@ var Alert = new CustomAlert();
             </figcaption>
           </figure>
         </div>
-        <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
+        <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px">
           <figure class="imghvr-fade w3-lemonmilk">
             <img class="kitsimages" src="http://i66.tinypic.com/2cd7f2b.png">
             <figcaption style="background-color: #737a28">
@@ -562,7 +561,7 @@ var Alert = new CustomAlert();
             </figcaption>
           </figure>
         </div>
-        <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
+        <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px">
           <figure class="imghvr-fade w3-lemonmilk">
             <img class="kitsimages" src="http://i66.tinypic.com/28rz33d.png">
             <figcaption style="background-color: #737a28">
