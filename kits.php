@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="w3-bannerimage">
+<html class="w3-bannerimage1">
 <head>
   <title>Unturned Nation</title>
   <meta charset="UTF-8">
@@ -122,7 +122,17 @@ var Alert = new CustomAlert();
         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
       </form>
     </div>
+<<<<<<< HEAD
     <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px; display: inline-block;">
+=======
+    <form style="float: bottom" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="3NNPB62HDZFYJ">
+      <input type="image" src="https://s33.postimg.cc/oys01xl6n/addtocartblack.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+    <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
+>>>>>>> b3dc4af89202ef57a87f6ee8e0572c505b5c7975
       <figure class="imghvr-fade w3-lemonmilk">
         <img class="kitsimages" src="http://i67.tinypic.com/710107.png">
         <figcaption style="background-color: #737a28">
@@ -505,7 +515,7 @@ var Alert = new CustomAlert();
       </div>
       <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px">
         <figure class="imghvr-fade w3-lemonmilk">
-          <img class="kitsimages" src="http://i68.tinypic.com/2ldkayv.png">
+          <img class="kitsimages" src="https://s33.postimg.cc/fi26vde7j/Light_Sniper_Kit.png">
           <figcaption style="background-color: #737a28">
             <button class="buttonkit" onclick="Alert.render('<p>Command: /kit lightsniper<br>May be spawned once per hour.</p><p>This kit includes:</p><ul><li>Forest Ghillie Hood</li><li>Military Nightvision</li><li>Forest Ghillie Top</li><li>Forest Ghillie Vest</li><li>Forest Ghillie Bottom</li><li>Alicepack</li><li>Timberwolf</li><li>Timberwolf Magazine x4</li><li>Honeybadger</li><li>Military Drum x2</li><li>Rangefinder</li><li>Red Dot Sight</li><li>Military Nightvision Scope</li><li>Bipod</li><li>Vertical Grip</li><li>Military Suppressor</li><li>Low Caliber Military Ammunition x3</li><li>High Caliber Military Ammunition x2</li><li>Military Knife</li><li>Flashbangs x3</li><li>MRE x3</li><li>Medkit x2</li><li>Bloodbag x2</li><li>Vaccine</li><li>Dressing x5</li></ul>', 'Light Sniper Kit')">
               <div class="w3-xlarge" style="color: #FF9D0F;">
@@ -519,7 +529,7 @@ var Alert = new CustomAlert();
       </div>
       <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px">
         <figure class="imghvr-fade w3-lemonmilk">
-          <img class="kitsimages" src="http://i68.tinypic.com/10e4rb6.png">
+          <img class="kitsimages" src="https://s33.postimg.cc/vgawlj3an/Heavy_Sniper_Kit.png">
           <figcaption style="background-color: #737a28">
             <button class="buttonkit" onclick="Alert.render('<p>Command: /kit heavysniper<br>May be spawned once per hour.</p><p>This kit includes:</p><ul><li>Forest Ghillie Hood</li><li>Military Nightvision</li><li>Forest Ghillie Top</li><li>Forest Ghillie Vest</li><li>Forest Ghillie Bottom</li><li>Alicepack</li><li>Grizzly</li><li>Grizzly Magazine x4</li><li>Honeybadger</li><li>Military Drum x2</li><li>Rangefinder</li><li>Red Dot Sight</li><li>Military Nightvision Scope</li><li>Bipod</li><li>Vertical Grip</li><li>Military Suppressor</li><li>Low Caliber Military Ammunition x3</li><li>High Caliber Military Ammunition x2</li><li>Military Knife</li><li>Flashbangs x3</li><li>MRE x3</li><li>Medkit x2</li><li>Bloodbag x2</li><li>Vaccine</li><li>Dressing x5</li>', 'Heavy Sniper Kit')">
               <div class="w3-xlarge" style="color: #FF9D0F;">
@@ -549,7 +559,7 @@ var Alert = new CustomAlert();
         </div>
         <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px">
           <figure class="imghvr-fade w3-lemonmilk">
-            <img class="kitsimages" src="http://i66.tinypic.com/2cd7f2b.png">
+            <img class="kitsimages" src="https://s33.postimg.cc/vx0plsvvz/OPKit.png">
             <figcaption style="background-color: #737a28">
               <button class="buttonkit" onclick="Alert.render('<p>Command: /kit op<br>May be spawned once per hour.</p><p>This kit includes:</p><ul><li>Green Beret</li><li>Military Nightvision</li><li>Spec Ops Top</li><li>Spec Ops Vest</li><li>Spec Ops Bottom</li><li>Alicepack</li><li>Chariot</li><li>Hells Fury</li><li>Hells Fury Drum x3</li><li>Honeybadger</li><li>Military Drum x3</li><li>Rangefinder</li><li>Military Nightvision Scope</li><li>Red Dot Sight</li><li>Vertical Grip</li><li>Adaptive Chambering</li><li>Military Barrel</li><li>Low Caliber Military Ammunition x4</li><li>Low Caliber Ranger Ammunition x4</li><li>Impact Grenade x3</li><li>Sticky Grenade x3</li><li>Landmine x3</li><li>Flashbang x5</li><li>Butterfly Knife</li><li>MRE x5</li><li>Medkit x3</li><li>Bloodbag x2</li><li>Vaccine x2</li><li>Antibiotic x2</li><li>Dressing x5</li></ul>', 'OP Kit')">
                 <div class="w3-xlarge" style="color: #FF9D0F;">
