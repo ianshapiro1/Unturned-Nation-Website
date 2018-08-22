@@ -72,7 +72,7 @@ var Alert = new CustomAlert();
 
 
 
-<div class="w3-container">
+<div style="position: relative">
   <div class="w3-lemonmilk w3-center w3-text-white" style="padding: 100px; padding-left: 0px; padding-right: 0px;">
     <h1 class="underline orange w3-xxlarge">Kits</h1>
     <p class="w3-large" style="color:#4e505b">Donate today for access to Basic, Deluxe, Premium, and Ultimate Kits</p>
@@ -81,25 +81,28 @@ var Alert = new CustomAlert();
     <br>
     <h2 class="underline orange borderkits" style="background-color: #4e505b; opacity: 0.9;margin-top: 160px;margin-left: 150px;margin-right: 150px;border:solid;">Basic ($1.00 each)</h2>
     <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px;"
-      <figure class="imghvr-fade w3-lemonmilk">
-        <img class="kitsimages" src="http://i68.tinypic.com/6ixs06.png">
-        <figcaption style="background-color: #737a28">
-          <button class="buttonkit" onclick="Alert.render('<p>Command: /kit essentials<br>May be spawned once per hour.</p><p>This kit includes:</p><ul><li>Maplestrike</li><li>Military Mag x2</li><li>Military Crate x2</li><li>Gas Can</li><li>Blow Torch</li><li>MRE x2</li><li>Water x2</li><li>Dressing x5</li><li>Antibiotics x3</li></ul>', 'Essentials Kit')">
-            <div class="w3-xlarge" style="color: #FF9D0F;">
-              <h1 class="underline w3-xlarge" style="color: #FF9D0F">Essentials</h1>
-              <p class="w3-medium">A weapon and supplies kit with necessary items for survival, including a maplestrike, ammo, food, medical, gas, and a blow torch.</p>
-              <p class="w3-small">*Click for Details*</p>
-            </div>
-          </button>
-        </figcaption>
-      </figure>
+      <div>
+        <figure class="imghvr-fade w3-lemonmilk" style="position: relative">
+          <img class="kitsimages" src="http://i68.tinypic.com/6ixs06.png">
+          <figcaption style="background-color: #737a28">
+            <button class="buttonkit" onclick="Alert.render('<p>Command: /kit essentials<br>May be spawned once per hour.</p><p>This kit includes:</p><ul><li>Maplestrike</li><li>Military Mag x2</li><li>Military Crate x2</li><li>Gas Can</li><li>Blow Torch</li><li>MRE x2</li><li>Water x2</li><li>Dressing x5</li><li>Antibiotics x3</li></ul>', 'Essentials Kit')">
+              <div class="w3-xlarge" style="color: #FF9D0F;">
+                <h1 class="underline w3-xlarge" style="color: #FF9D0F">Essentials</h1>
+                <p class="w3-medium">A weapon and supplies kit with necessary items for survival, including a maplestrike, ammo, food, medical, gas, and a blow torch.</p>
+                <p class="w3-small">*Click for Details*</p>
+              </div>
+            </button>
+          </figcaption>
+        </figure>
+      </div>
+      <form id="paypaladd" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="3NNPB62HDZFYJ">
+        <input type="image" src="https://s33.postimg.cc/exn5ss0fj/addtocartorange.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+      </form>
     </div>
-    <form style="float: bottom" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-      <input type="hidden" name="cmd" value="_s-xclick">
-      <input type="hidden" name="hosted_button_id" value="3NNPB62HDZFYJ">
-      <input type="image" src="https://s33.postimg.cc/exn5ss0fj/addtocartorange.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-    </form>
+
     <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
       <figure class="imghvr-fade w3-lemonmilk">
         <img class="kitsimages" src="http://i64.tinypic.com/swqpma.png">
