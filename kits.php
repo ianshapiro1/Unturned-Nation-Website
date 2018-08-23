@@ -79,12 +79,12 @@ var Alert = new CustomAlert();
     <br>
     <br>
     <br>
-    <h2 class="underline orange borderkits" style="background-color: #4e505b; opacity: 0.9;margin-top: 160px;margin-left: 150px;margin-right: 150px;border:solid;">Basic ($1.00 each)</h2>
+    <h2 class="underline orange borderkits" style="background: url(https://s33.postimg.cc/omy56c2mn/stripe_black.png); opacity: 0.9;margin-top: 160px;margin-left: 150px;margin-right: 150px;border:solid;">Basic ($1.00 each)</h2>
 
 
     <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px; display: inline-block">
       <figure class="imghvr-fade w3-lemonmilk" style="border-radius: 10px;">
-        <img class="kitsimages" src="http://i68.tinypic.com/6ixs06.png">
+        <img class="kitsimages" src="https://s33.postimg.cc/cpt6zl5nj/Essentials_Kit.png">
         <figcaption style="background-color: #737a28" style="border-radius: 10px;">
           <button class="buttonkit" onclick="Alert.render('<p>Command: /kit essentials<br>May be spawned once per hour.</p><p>This kit includes:</p><ul><li>Maplestrike</li><li>Military Mag x2</li><li>Military Crate x2</li><li>Gas Can</li><li>Blow Torch</li><li>MRE x2</li><li>Water x2</li><li>Dressing x5</li><li>Antibiotics x3</li></ul>', 'Essentials Kit')">
             <div class="w3-xlarge" style="color: #FF9D0F;">
@@ -107,7 +107,7 @@ var Alert = new CustomAlert();
 
     <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px; display: inline-block;">
       <figure class="imghvr-fade w3-lemonmilk" style="border-radius: 10px;">
-        <img class="kitsimages" src="http://i64.tinypic.com/swqpma.png">
+        <img class="kitsimages" src="https://s33.postimg.cc/t0taw77y7/Meals_Kit.png">
         <figcaption style="background-color: #737a28; border-radius: 10px;">
           <button class="buttonkit" onclick="Alert.render('<p>Command: /kit meals<br>May be spawned once per hour.</p><p>This kit includes:</p><ul><li>MRE x10</li><li>Coconut Water x5</li><li>Energy Bar x5</li></ul>', 'Meals Kit')">
             <div class="w3-xlarge" style="color: #FF9D0F;">
@@ -130,7 +130,7 @@ var Alert = new CustomAlert();
 
     <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px; display: inline-block;">
       <figure class="imghvr-fade w3-lemonmilk" style="border-radius: 10px;">
-        <img class="kitsimages" src="http://i67.tinypic.com/710107.png">
+        <img class="kitsimages" src="https://s33.postimg.cc/wx6ms838f/First_Aid_Kit.png">
         <figcaption style="background-color: #737a28" style="border-radius: 10px;">
           <button class="buttonkit" onclick="Alert.render('<p>Command: /kit firstaid<br>May be spawned once per hour.</p><p>This kit includes:</p><ul><li>Medkit x3</li><li>Bloodbag x2</li><li>Vaccine x3</li><li>Antibiotics x4</li><li>Dressing x5</li><li>Splint x2</li></ul>', 'First Aid Kit')">
             <div class="w3-xlarge" style="color: #FF9D0F;">
@@ -153,7 +153,7 @@ var Alert = new CustomAlert();
 
     <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px; display: inline-block;">
       <figure class="imghvr-fade w3-lemonmilk" style="border-radius: 10px;">
-        <img class="kitsimages" src="http://i68.tinypic.com/2hp7ypw.jpg">
+        <img class="kitsimages" src="https://s33.postimg.cc/sbaijwzpr/Shelter_Kit.png">
         <figcaption style="background-color: #737a28" style="border-radius: 10px;">
           <button class="buttonkit" onclick="Alert.render('<p>Command: /kit shelter<br>May be spawned once per hour.</p><p>This kit includes:</p><ul><li>Construction Helmet</li><li>Construction Top</li><li>Cargo Pants</li><li>Alicepack</li><li>Metal Pillar x8</li><li>Metal Floor x3</li><li>Metal Roof x3</li><li>Metal Wall x4</li><li>Metal Window x2</li><li>Bulletproof Glass x2</li><li>Metal Doorway x2</li><li>Metal Door x2</li><li>Metal Hole</li><li>Metal Hatch</li><li>Metal Ladder</li><li>Metal Garage</li><li>Metal Gate</li><li>Locker x2</li><li>Claim Flag</li><li>Barbed Wire Fence x5</li></ul>', 'Shelter Kit')">
             <div class="w3-xlarge" style="color: #FF9D0F;">
@@ -176,7 +176,7 @@ var Alert = new CustomAlert();
 
     <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px; display: inline-block;">
       <figure class="imghvr-fade w3-lemonmilk">
-        <img class="kitsimages" src="http://i66.tinypic.com/28jzkmb.png">
+        <img class="kitsimages" src="https://s33.postimg.cc/kwl6r3ya7/Locker_Kit.png">
         <figcaption style="background-color: #737a28">
           <button class="buttonkit" onclick="Alert.render('<p>Command: /kit storage<br>May be spawned once per hour.</p><p>This kit includes:</p><ul><li>Locker x10</li></ul>', 'Storage Kit')">
             <div class="w3-xlarge" style="color: #FF9D0F;">
@@ -190,7 +190,7 @@ var Alert = new CustomAlert();
     </div>
     <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px; display: inline-block;">
       <figure class="imghvr-fade w3-lemonmilk">
-        <img class="kitsimages" src="http://i63.tinypic.com/2ccxamr.png">
+        <img class="kitsimages" src="https://s33.postimg.cc/5dsc7xppr/Water_Supply_Kit.png">
         <figcaption style="background-color: #737a28">
           <button class="buttonkit" onclick="Alert.render('<p>Command: /kit watersupply<br>May be spawned once per hour.</p><p>This kit includes:</p><ul><li>Rain Barrel x5</li><li>Water Tank</li><li>Canteen</li></ul>', 'Water Supply Kit')">
             <div class="w3-xlarge" style="color: #FF9D0F;">
@@ -204,7 +204,7 @@ var Alert = new CustomAlert();
     </div>
     <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px; display: inline-block;">
       <figure class="imghvr-fade w3-lemonmilk">
-        <img class="kitsimages" src="http://i68.tinypic.com/143drnr.png">
+        <img class="kitsimages" src="https://s33.postimg.cc/mlu9znypb/Energy_Supply_Kit.png">
         <figcaption style="background-color: #737a28">
           <button class="buttonkit" onclick="Alert.render('<p>Command: /kit energysupply<br>May be spawned once per hour.</p><p>This kit includes:</p><ul><li>Generator x2</li><li>Industrial Gas Can</li><li>Pump Jack x2</li><li>Fuel Tank</li></ul>', 'Energy Supply')">
             <div class="w3-xlarge" style="color: #FF9D0F;">
@@ -218,7 +218,7 @@ var Alert = new CustomAlert();
     </div>
     <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px; display: inline-block;">
       <figure class="imghvr-fade w3-lemonmilk">
-        <img class="kitsimages" src="http://i66.tinypic.com/2ijtcnb.png">
+        <img class="kitsimages" src="https://s33.postimg.cc/hxngvpo7j/Defense_Kit.png">
         <figcaption style="background-color: #737a28">
           <button class="buttonkit" onclick="Alert.render('<p>Command: /kit defense<br>May be spawned once per hour.</p><p>This kit includes:</p><ul><li>Snayperskya</li><li>Snayperskya Mag x3</li><li>8x Scope</li><li>Ranger Suppresor</li><li>Kryzkarek</li><li>Kryzkarek Mag</li><li>Low Caliber Ranger Ammunition x2</li><li>Headlamp</li><li>Binoculars</li></ul>', 'Defense Kit')">
             <div class="w3-xlarge" style="color: #FF9D0F;">
@@ -232,7 +232,7 @@ var Alert = new CustomAlert();
     </div>
     <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px; display: inline-block;">
       <figure class="imghvr-fade w3-lemonmilk">
-        <img class="kitsimages" src="http://i63.tinypic.com/2rd9m6g.png">
+        <img class="kitsimages" src="https://s33.postimg.cc/6y29k5v8f/Offense_Kit.png">
         <figcaption style="background-color: #737a28">
           <button class="buttonkit" onclick="Alert.render('<p>Command: /kit offense<br>May be spawned once per hour.</p><p>This kit includes:</p><ul><li>Bulldog</li><li>Bulldog Mag x3</li><li>Calling Card</li><li>Calling Card Mag</li><li>Halo Sight</li><li>Barrel</li><li>Low Caliber Ranger Ammunition x2</li><li>Butterfly Knife</li><li>Headlamp</li></ul>', 'Offense Kit')">
             <div class="w3-xlarge" style="color: #FF9D0F;">
@@ -246,7 +246,7 @@ var Alert = new CustomAlert();
     </div>
     <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px; display: inline-block;">
       <figure class="imghvr-fade w3-lemonmilk">
-        <img class="kitsimages" src="http://i67.tinypic.com/5x6ija.png">
+        <img class="kitsimages" src="https://s33.postimg.cc/nqxiw6zu7/Attachments_Kit.png">
         <figcaption style="background-color: #737a28">
           <button class="buttonkit" onclick="Alert.render('<p>Command: /kit attachment<br>May be spawned once per hour.</p><p>This kit includes:</p><ul><li>Red Dot Sight</li><li>Halo Sight</li><li>Tactical Light</li><li>Red Cross Scope</li><li>16x Scope</li><li>Vertical Grip x2</li><li>Horizontal Grip</li><li>Bipod</li><li>Military Barrel</li><li>Ranger Barrel</li><li>Military Suppressor</li><li>Ranger Suppressor</li><li>Adaptive Chambering</li><li>Military Muzzle</li></ul>', 'Attachments Kit')">
             <div class="w3-xlarge" style="color: #FF9D0F;">
@@ -260,7 +260,7 @@ var Alert = new CustomAlert();
     </div>
     <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px; display: inline-block;">
       <figure class="imghvr-fade w3-lemonmilk">
-        <img class="kitsimages" src="http://i65.tinypic.com/bjdhdf.png">
+        <img class="kitsimages" src="https://s33.postimg.cc/s07avb1nj/Repair_Kit.png">
         <figcaption style="background-color: #737a28">
           <button class="buttonkit" onclick="Alert.render('<p>Command: /kit repair<br>May be spawned once per hour.</p><p>This kit includes:</p><ul><li>Blowtorch</li><li>Metal Scrap x25</li><li>Cloth x10</li></ul>', 'Repair Kit')">
             <div class="w3-xlarge" style="color: #FF9D0F;">
@@ -274,7 +274,7 @@ var Alert = new CustomAlert();
     </div>
     <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px; display: inline-block;">
       <figure class="imghvr-fade w3-lemonmilk">
-        <img class="kitsimages" src="http://i67.tinypic.com/o93887.png">
+        <img class="kitsimages" src="https://s33.postimg.cc/wefs7g9qn/Fences_Kit.png">
         <figcaption style="background-color: #737a28">
           <button class="buttonkit" onclick="Alert.render('<p>Command: /kit fences<br>May be spawned once per hour.</p><p>This kit includes:</p><ul><li>Barbed Wire Fence x15</li><li>Barbed Wire x10</li></ul>', 'Fences Kit')">
             <div class="w3-xlarge" style="color: #FF9D0F;">
@@ -288,7 +288,7 @@ var Alert = new CustomAlert();
     </div>
     <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px; display: inline-block;">
       <figure class="imghvr-fade w3-lemonmilk">
-        <img class="kitsimages" src="http://i67.tinypic.com/24mdp1t.png">
+        <img class="kitsimages" src="https://s33.postimg.cc/6vnfujl2n/Picnic_Kit.png">
         <figcaption style="background-color: #737a28">
           <button class="buttonkit" onclick="Alert.render('<p>Command: /kit picnic<br>May be spawned once per hour.</p><p>This kit includes:</p><ul><li>Pizza</li><li>Pumpkin Pie</li><li>Cake</li><li>BLT x2</li><li>Cheese Steak Sandwich x2</li><li>Cheese x2</li><li>Canned Soda x2</li><li>Canned Cola x2</li><li>Pancake x2</li><li>Waffle x2</li><li>Doughnut x2</li><li>Maple Syrup x2</li><li>Milk Box</li><li>Orange Juice Box</li><li>Grape Juice x2</li><li>Apple Juice x2</li><li>Chewing Gum</li><li>Cooler</li></ul>', 'Picnic Kit')">
             <div class="w3-xlarge" style="color: #FF9D0F;">
@@ -302,7 +302,7 @@ var Alert = new CustomAlert();
     </div>
     <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px; display: inline-block;">
       <figure class="imghvr-fade w3-lemonmilk">
-        <img class="kitsimages" src="http://i67.tinypic.com/2irx9py.png">
+        <img class="kitsimages" src="https://s33.postimg.cc/rc31qlkr3/Paint_Kit.png">
         <figcaption style="background-color: #737a28">
           <button class="buttonkit" onclick="Alert.render('<p>Command: /kit paint<br>May be spawned once per hour.</p><p>This kit includes:</p><ul><li>Black Balaclava</li><li>Black T-Shirt</li><li>Cargo Pants</li><li>Paintball Gun</li><li>Halo Sight</li><li>Vertical Grip</li><li>Adaptive Chambering</li><li>Purple Hopper x2</li><li>Blue Hopper x2</li><li>Green Hopper x2</li><li>Yellow Hopper x2</li><li>Orange Hopper x2</li><li>Red Hopper x2</li></ul>', 'Paint Kit')">
             <div class="w3-xlarge" style="color: #FF9D0F;">
@@ -316,7 +316,7 @@ var Alert = new CustomAlert();
     </div>
     <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px; display: inline-block;">
       <figure class="imghvr-fade w3-lemonmilk">
-        <img class="kitsimages" src="http://i68.tinypic.com/95pi0z.png">
+        <img class="kitsimages" src="https://s33.postimg.cc/uk7j339fj/Horde_Kit.png">
         <figcaption style="background-color: #737a28">
           <button class="buttonkit" onclick="Alert.render('<p>Command: /kit horde<br>May be spawned once per hour.</p><p>This kit includes:</p><ul><li>Horde Beacon</li><li>Chainsaw</li><li>Low Caliber Civilian Ammunition x4</li><li>Low Caliber Military Ammunition x2</li><li>SutureKit x2</li><li>Dressing x9</li><li>Vaccine x3</li></ul>', 'Horde Kit')">
             <div class="w3-xlarge" style="color: #FF9D0F;">
@@ -328,7 +328,7 @@ var Alert = new CustomAlert();
         </figcaption>
       </figure>
     </div>
-    <h2 class="underline orange borderkits" style="background-color: #4e505b; opacity: 0.9;margin-top: 160px;margin-left: 150px;margin-right: 150px;border:solid">Premium ($2.50 each)</h2>
+    <h2 class="underline orange borderkits" style="background: url(https://s33.postimg.cc/omy56c2mn/stripe_black.png); opacity: 0.9;margin-top: 160px;margin-left: 150px;margin-right: 150px;border:solid">Premium ($2.50 each)</h2>
     <div>
       <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px">
         <figure class="imghvr-fade w3-lemonmilk">
@@ -471,7 +471,7 @@ var Alert = new CustomAlert();
         </figure>
       </div>
     </div>
-    <h2 class="underline orange borderkits" style="background-color: #4e505b; opacity: 0.9;margin-top: 160px;margin-left: 150px;margin-right: 150px;border:solid">Deluxe ($5.00 each)</h2>
+    <h2 class="underline orange borderkits" style="background: url(https://s33.postimg.cc/omy56c2mn/stripe_black.png); opacity: 0.9;margin-top: 160px;margin-left: 150px;margin-right: 150px;border:solid">Deluxe ($5.00 each)</h2>
     <div>
       <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px">
         <figure class="imghvr-fade w3-lemonmilk">
@@ -503,7 +503,7 @@ var Alert = new CustomAlert();
       </div>
       <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px">
         <figure class="imghvr-fade w3-lemonmilk">
-          <img class="kitsimages" src="http://i65.tinypic.com/2hrhedv.png">
+          <img class="kitsimages" src="https://s33.postimg.cc/jn0oy24m7/Sentry_Kit.png">
           <figcaption style="background-color: #737a28">
             <button class="buttonkit" onclick="Alert.render('<p>Command: /kit sentry<br>May be spawned once per hour.</p><p>This kit includes:</p><ul><li>Alicepack</li><li>Hostile Sentry x8</li><li>Neutral Sentry x4</li><li>Eaglefire x6</li><li>Industrial Generator</li><li>Industrial Gas Can</li><li>Sandbag x12</li><li>Snare x6</li></ul>', 'Sentry Kit')">
               <div class="w3-xlarge" style="color: #FF9D0F;">
@@ -543,11 +543,11 @@ var Alert = new CustomAlert();
           </figcaption>
         </figure>
       </div>
-    <h2 class="underline orange borderkits" style="background-color: #4e505b; opacity: 0.9;margin-top: 160px;margin-left: 150px;margin-right: 150px;border:solid">Ultimate ($10.00 each)</h2>
+    <h2 class="underline orange borderkits" style="background: url(https://s33.postimg.cc/omy56c2mn/stripe_black.png); opacity: 0.9;margin-top: 160px;margin-left: 150px;margin-right: 150px;border:solid">Ultimate ($10.00 each)</h2>
     <div>
         <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px">
           <figure class="imghvr-fade w3-lemonmilk">
-            <img class="kitsimages" src="http://i68.tinypic.com/9i7fq9.png">
+            <img class="kitsimages" src="https://s33.postimg.cc/oxa92wyrj/Ammunition_Kit.png">
             <figcaption style="background-color: #737a28">
               <button class="buttonkit" onclick="Alert.render('<p>Command: /kit ammunition<br>May be spawned once per hour.</p><p>This kit includes:</p><ul><li>Alicepack</li><li>Low Caliber Military Ammunition x8</li><li>High Caliber Military Ammunition x4</li><li>Low Caliber Ranger Ammunition x6</li><li>High Caliber Ranger Ammunition x3</li><li>Military Drum x3</li><li>Ranger Drum x2</li></ul>', 'Ammunition Kit')">
                 <div class="w3-xlarge" style="color: #FF9D0F;">
@@ -575,7 +575,7 @@ var Alert = new CustomAlert();
         </div>
         <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px">
           <figure class="imghvr-fade w3-lemonmilk">
-            <img class="kitsimages" src="http://i66.tinypic.com/28rz33d.png">
+            <img class="kitsimages" src="https://s33.postimg.cc/90ywmnw1r/Lancer_Kit.png">
             <figcaption style="background-color: #737a28">
               <button class="buttonkit" onclick="Alert.render('<p>Command: /kit lancer<br>May be spawned once per hour.</p><p>This kit includes:</p><ul><li>Alicepack</li><li>Lancer</li><li>Lancer Rocket x10</li></ul>', 'Lancer Kit')">
                 <div class="w3-xlarge" style="color: #FF9D0F;">
