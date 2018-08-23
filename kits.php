@@ -83,9 +83,9 @@ var Alert = new CustomAlert();
 
 
     <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px; display: inline-block">
-      <figure class="imghvr-fade w3-lemonmilk">
+      <figure class="imghvr-fade w3-lemonmilk" style="border-radius: 10px;">
         <img class="kitsimages" src="http://i68.tinypic.com/6ixs06.png">
-        <figcaption style="background-color: #737a28">
+        <figcaption style="background-color: #737a28" style="border-radius: 10px;">
           <button class="buttonkit" onclick="Alert.render('<p>Command: /kit essentials<br>May be spawned once per hour.</p><p>This kit includes:</p><ul><li>Maplestrike</li><li>Military Mag x2</li><li>Military Crate x2</li><li>Gas Can</li><li>Blow Torch</li><li>MRE x2</li><li>Water x2</li><li>Dressing x5</li><li>Antibiotics x3</li></ul>', 'Essentials Kit')">
             <div class="w3-xlarge" style="color: #FF9D0F;">
               <h1 class="underline w3-xlarge" style="color: #FF9D0F">Essentials</h1>
@@ -102,6 +102,9 @@ var Alert = new CustomAlert();
         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
       </form>
     </div>
+
+
+
     <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px; display: inline-block;">
       <figure class="imghvr-fade w3-lemonmilk" style="border-radius: 10px;">
         <img class="kitsimages" src="http://i64.tinypic.com/swqpma.png">
@@ -122,20 +125,13 @@ var Alert = new CustomAlert();
         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
       </form>
     </div>
-<<<<<<< HEAD
+
+
+
     <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px; display: inline-block;">
-=======
-    <form style="float: bottom" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-      <input type="hidden" name="cmd" value="_s-xclick">
-      <input type="hidden" name="hosted_button_id" value="3NNPB62HDZFYJ">
-      <input type="image" src="https://s33.postimg.cc/oys01xl6n/addtocartblack.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-    </form>
-    <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px"
->>>>>>> b3dc4af89202ef57a87f6ee8e0572c505b5c7975
-      <figure class="imghvr-fade w3-lemonmilk">
+      <figure class="imghvr-fade w3-lemonmilk" style="border-radius: 10px;">
         <img class="kitsimages" src="http://i67.tinypic.com/710107.png">
-        <figcaption style="background-color: #737a28">
+        <figcaption style="background-color: #737a28" style="border-radius: 10px;">
           <button class="buttonkit" onclick="Alert.render('<p>Command: /kit firstaid<br>May be spawned once per hour.</p><p>This kit includes:</p><ul><li>Medkit x3</li><li>Bloodbag x2</li><li>Vaccine x3</li><li>Antibiotics x4</li><li>Dressing x5</li><li>Splint x2</li></ul>', 'First Aid Kit')">
             <div class="w3-xlarge" style="color: #FF9D0F;">
               <h1 class="underline w3-xlarge" style="color: #FF9D0F">First Aid</h1>
@@ -152,10 +148,13 @@ var Alert = new CustomAlert();
         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
       </form>
     </div>
+
+
+
     <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px; display: inline-block;">
-      <figure class="imghvr-fade w3-lemonmilk">
+      <figure class="imghvr-fade w3-lemonmilk" style="border-radius: 10px;">
         <img class="kitsimages" src="http://i68.tinypic.com/2hp7ypw.jpg">
-        <figcaption style="background-color: #737a28">
+        <figcaption style="background-color: #737a28" style="border-radius: 10px;">
           <button class="buttonkit" onclick="Alert.render('<p>Command: /kit shelter<br>May be spawned once per hour.</p><p>This kit includes:</p><ul><li>Construction Helmet</li><li>Construction Top</li><li>Cargo Pants</li><li>Alicepack</li><li>Metal Pillar x8</li><li>Metal Floor x3</li><li>Metal Roof x3</li><li>Metal Wall x4</li><li>Metal Window x2</li><li>Bulletproof Glass x2</li><li>Metal Doorway x2</li><li>Metal Door x2</li><li>Metal Hole</li><li>Metal Hatch</li><li>Metal Ladder</li><li>Metal Garage</li><li>Metal Gate</li><li>Locker x2</li><li>Claim Flag</li><li>Barbed Wire Fence x5</li></ul>', 'Shelter Kit')">
             <div class="w3-xlarge" style="color: #FF9D0F;">
               <h1 class="underline w3-xlarge" style="color: #FF9D0F">Shelter</h1>
@@ -172,6 +171,9 @@ var Alert = new CustomAlert();
         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
       </form>
     </div>
+
+
+
     <div style="margin-top: 100px; margin-left: 20px; margin-right: 20px; border-radius: 10px; display: inline-block;">
       <figure class="imghvr-fade w3-lemonmilk">
         <img class="kitsimages" src="http://i66.tinypic.com/28jzkmb.png">
