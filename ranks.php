@@ -39,7 +39,7 @@
 
 <div class="w3-center" style="margin-top: 50px;padding: 100px; padding-left: 0px; padding-right: 0px;">
   <div class=" w3-lemonmilk">
-    <h1 class="underline w3-xxlarge"><span class="rainbow">Ranks</span></h1>
+    <h1 class="underline w3-xxlarge"><span style="color: #42F2FF">Ranks</span></h1>
     <p class="w3-large" style="color:#4e505b">Donate today to get a permanent rank that<br>
       includes perks and kits on all of our PVP servers.
     </p>
@@ -70,13 +70,6 @@
       </div>
     </figcaption>
   </figure>
-  <form style="float: bottom" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-    <input type="hidden" name="cmd" value="_s-xclick">
-    <input type="hidden" name="hosted_button_id" value="3NNPB62HDZFYJ">
-    <input type="image" src="https://s33.postimg.cc/abr1k4p3j/addtocartorange.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-  </form>
-
 
   <figure class=" badges imghvr-fade w3-lemonmilk" style="padding-right: 30px; padding-left: 30px; background-color: transparent; border-radius: 10px; border-width: 5px;">
     <img id="epiclogo" src="http://i67.tinypic.com/2dgkvtg.png">
