@@ -33,7 +33,7 @@
     <a href="ranks.php" class="w3-bar-item w3-button w3-padding-large">Ranks</a>
     <a href="perks.php" class="w3-bar-item w3-button w3-padding-large">Perks</a>
     <a href="upgrades.php" class="w3-bar-item w3-button w3-padding-large">Upgrades</a>
-    <a href="contact.php" class="w3-bar-item w3-button w3-padding-large">Contact Us</a>
+    <a href="contactus.php" class="w3-bar-item w3-button w3-padding-large">Contact Us</a>
   </div>
 </div>
 <script>

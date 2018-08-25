@@ -140,9 +140,11 @@ img{vertical-align:middle}a{color:inherit}
 .w3-transparent,.w3-hover-none:hover{background-color:transparent!important}
 .w3-hover-none:hover{box-shadow:none!important}
 /* Colors */
-.w3-bannerimage,.w3-hover-bannerimage:hover{background: url(http://oi67.tinypic.com/2vxep9s.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; }
-.w3-bannerimage1,.w3-hover-bannerimage1:hover{background: url(https://s33.postimg.cc/442shwfhb/Misc_Night_Watch.png) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; }
-.w3-bannerimage3,.w3-hover-bannerimage3:hover{background: url(https://s33.postimg.cc/uo5xxlc5r/backgroundthing.png) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; }
+.w3-bannerimage,.w3-hover-bannerimage:hover{background: url(https://imageshack.com/a/img923/7109/eYHtG4.png) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; }
+.w3-bannerimage1,.w3-hover-bannerimage1:hover{background: url(https://imageshack.com/a/img921/2922/KKRlHH.png) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; }
+.w3-bannerimage2,.w3-hover-bannerimage2:hover{background: url(https://imageshack.com/a/img922/8396/TBGENN.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; }
+.w3-bannerimage3,.w3-hover-bannerimage3:hover{background: url(https://imageshack.com/a/img922/8396/TBGENN.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; }
+.w3-bannerimage4,.w3-hover-bannerimage4:hover{background: url(https://imageshack.com/a/img922/4404/bbz3Th.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; }
 
 .w3-green,.w3-hover-green:hover{color:#fff!important;background-color:#4CAF50!important}
 .w3-green1,.w3-hover-green1:hover{color:#fff!important;background-color:#1F2410!important}
@@ -160,14 +162,14 @@ img{vertical-align:middle}a{color:inherit}
 
 
 /* New colors */
-.w3-opaqueteracotta {background: #221416; opacity: .85}
+.w3-opaqueteracotta {background: #221416; opacity: .95}
 .w3-text-black,.w3-hover-text-black:hover{color:#586273!important}
 .w3-text-white,.w3-hover-text-white:hover{color:#ffffff!important}
 .w3-text-green3,.w3-hover-text-green3:hover{color:#737a28!important}
 .w3-text-green4,.w3-hover-text-green4:hover{color:#575C1E; opacity: 1.0!important}
 .orange{color:#FF9C0F}
 .w3-text-brown,.w3-hover-text-brown:hover{color:#221416; opacity: 1.0!important}
-.w3-green4opq,.w3-hover-green4opq:hover{opacity: .85; background-color:#575C1E}
+.w3-green4opq,.w3-hover-green4opq:hover{opacity: .95; background-color:#575C1E}
 .linkhovercolor:hover {color: #4A2127}
 .text-dark-gray{color: #33343B!important}
 .bronze{color: #CD7F32}

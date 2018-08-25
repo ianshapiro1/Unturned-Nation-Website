@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="w3-bannerimage">
+<html class="w3-bannerimage4">
 <head>
   <title>Unturned Nation</title>
   <meta charset="UTF-8">
