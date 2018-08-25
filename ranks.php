@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="w3-bannerimage3">
+<html class="w3-bannerimage2">
 <head>
   <title>Unturned Nation</title>
   <meta charset="UTF-8">
@@ -33,13 +33,13 @@
     <a href="ranks.php" class="w3-bar-item w3-button w3-padding-large">Ranks</a>
     <a href="perks.php" class="w3-bar-item w3-button w3-padding-large">Perks</a>
     <a href="upgrades.php" class="w3-bar-item w3-button w3-padding-large">Upgrades</a>
-    <a href="contact.php" class="w3-bar-item w3-button w3-padding-large">Contact Us</a>
+    <a href="contactus.php" class="w3-bar-item w3-button w3-padding-large">Contact Us</a>
   </div>
 </div>
 
-<div class="w3-center" style="margin-top: 50px;padding: 100px; padding-left: 0px; padding-right: 0px;">
+<div class="w3-center" style="margin-top: 0px;padding: 100px; padding-left: 0px; padding-right: 0px;">
   <div class=" w3-lemonmilk">
-    <h1 class="underline w3-xxlarge"><span style="color: #42F2FF">Ranks</span></h1>
+    <h1 class="underline w3-text-green4 w3-xxlarge">Ranks</h1>
     <p class="w3-large" style="color:#4e505b">Donate today to get a permanent rank that<br>
       includes perks and kits on all of our PVP servers.
     </p>
@@ -49,7 +49,7 @@
   </div>
   <figure class=" badges imghvr-fade w3-lemonmilk" style="margin-top: 10px;padding-right: 30px; background-color: transparent; border-radius: 10px; border-width: 10px;">
     <img id="rarelogo" src="http://i67.tinypic.com/302chmx.png">
-    <figcaption style="background: url(https://s33.postimg.cc/n5cougkxr/stripe_blue.png); border: solid; border-color: #3553fc; border-width: 7px;">
+    <figcaption style="background: url(https://s33.postimg.cc/rstrthdr3/stripe_blue.png); border: solid; border-color: #3553fc; border-width: 7px;">
       <div class="w3-xxlarge transparent-style underline" style="color: #000000; margin-top: 30px;">
         RARE
       </div>
@@ -73,7 +73,7 @@
 
   <figure class=" badges imghvr-fade w3-lemonmilk" style="padding-right: 30px; padding-left: 30px; background-color: transparent; border-radius: 10px; border-width: 5px;">
     <img id="epiclogo" src="http://i67.tinypic.com/2dgkvtg.png">
-    <figcaption style="background: url(https://s33.postimg.cc/pzfu7xa9b/stripe_purple.png); border: solid; border-color: #8932ff; border-width: 7px;">
+    <figcaption style="background: url(https://s33.postimg.cc/a4211cu4v/stripe_purlpe.png); border: solid; border-color: #8932ff; border-width: 7px;">
       <div class="w3-xxlarge transparent-style underline" style="color: #000000; margin-top: 30px;">
         EPIC
       </div>
@@ -99,7 +99,7 @@
 
   <figure class=" badges imghvr-fade w3-lemonmilk" style="padding-right: 30px; padding-left: 30px; background-color: transparent; border-radius: 10px; border-width: 5px;">
     <img id="legendarylogo" src="http://i67.tinypic.com/25g8fnt.png">
-    <figcaption style="background: url(https://s33.postimg.cc/ciivp0xcv/stripe_pink.png); border: solid; border-color: #be00ff; border-width: 7px;">
+    <figcaption style="background: url(https://s33.postimg.cc/m5xevk8j3/stripe_pink.png); border: solid; border-color: #be00ff; border-width: 7px;">
       <div class="w3-xxlarge transparent-style underline" style="color: #000000; margin-top: 30px;">
         LEGENDARY
       </div>
@@ -125,7 +125,7 @@
 
   <figure class=" badges imghvr-fade w3-lemonmilk" style="padding-left: 30px; background-color: transparent; border-radius: 10px; border-width: 5px;">
     <img id="mythicallogo" src="http://i64.tinypic.com/sfihbo.png">
-    <figcaption style="background:url(https://s33.postimg.cc/5e12g1ftr/stripe_red.png); border: solid; border-color: #dd1800; border-width: 7px;">
+    <figcaption style="background:url(https://s33.postimg.cc/xv1ejlzin/stripe_red.png); border: solid; border-color: #dd1800; border-width: 7px;">
       <div class="w3-xxlarge transparent-style underline" style="color: #000000; margin-top: 30px;">
         MYTHICAL
       </div>
